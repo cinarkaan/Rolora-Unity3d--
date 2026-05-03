@@ -192,11 +192,18 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 - **Performans & Optimization**
 *Caption: The game has been optimized for devices using the Mali‑G52 GPU, achieving a minimum of 60 FPS under normal conditions. Exceptions may occur during extended play sessions or when thermal levels rise.*
 
-- **Developer Diaries - Rolora 1.0.3 (End of the first week in May)**
-*Caption: The players will be able to selected from different flags, which have various shapes and perfections. The flags have the same shapes and perfections, so if the player buys them, the purchased flag can be used in all the maps.*
+### Developer Diaries - Rolora Version 1.0.3 (End of the first week in May)
+*Caption: The players will be able to select from different flags, which have various shapes and perfections. The purchased flags can be used across all maps.*
+
   ![Colorful_Flag_Selection](./SS/Colorful_Flag_Selection.png)
-  ![Ancient_Flag_Selection](./SS/Ancient_Flag_Seleection.png)
+  ![Ancient_Flag_Selection](./SS/Ancient_Flag_Selection.png)
   ![Mystical_Flag_Selection](./SS/Mystical_Flag_Selection.png)
+
+- Added featured flag selection to profile (UI) and implemented in gameplay.
+- Improved shaders and applied optimisations.
+- Refactored existing codebase using design patterns for better structure and readability.
+- Fixed bugs and resolved errors to enhance stability.
+- Applied improvements to multiplayer functionality.
 
 ### Enjoy the Game
 
