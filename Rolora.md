@@ -1,4 +1,4 @@
-﻿# ROLORA - Version 1.0.2
+﻿# ROLORA - Version 1.0.3
 
 # Overview
 
@@ -144,9 +144,12 @@ The colorful cube must reach the evacuation point by rolling onto tiles that mat
 
 - **Profile Colorful**  
   ![Profile Colorful](./SS/ColorfulProfile.png)  			
+  ![Colorful_Flag_Selection](./SS/Colorful_Flag_Selection.png)
   ![Profile Ancient](./SS/AncientProfile.png) 		
-  ![Profile Mystical](./SS/MysticalProfile.png)  
-  *Caption: Material and frame preview with stat modifiers.*
+  ![Ancient_Flag_Selection](./SS/Ancient_Flag_Selection.png)
+  ![Profile Mystical](./SS/MysticalProfile.png)
+  ![Mystical_Flag_Selection](./SS/Mystical_Flag_Selection.png)
+  *Caption: Material,frame,flag preview with stat modifiers.*
 
 - **Store**  
   ![Store](./SS/Store.png)  
@@ -190,21 +193,8 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 *Caption: Dynamic tiles appear across all three maps, changing their properties — such as color and texture — every three seconds based on shader settings. These tiles alternate between dummy and original states, adding unpredictability to the gameplay. Their presence depends on the selected difficulty level, making higher difficulties more challenging and varied.*
 
 - **Performans & Optimization**
-*Caption: The game has been optimized for devices using the Mali‑G52 GPU, achieving a minimum of 60 FPS under normal conditions. Exceptions may occur during extended play sessions or when thermal levels rise.*
+*Caption: The game has been optimized for devices using the Mali‑G52 GPU, achieving a minimum of 60 FPS under normal conditions. Exceptions may occur during extended play sessions or when thermal levels rise.With V1.0.3 , Improved shaders and applied some optimisations.*
 
-### Developer Diaries - Rolora Version 1.0.3 (End of the first week in May)
-*Caption: The players will be able to select from different flags, which have various shapes and perfections. The purchased flags can be used across all maps.*
-
-  ![Colorful_Flag_Selection](./SS/Colorful_Flag_Selection.png)
-  ![Ancient_Flag_Selection](./SS/Ancient_Flag_Selection.png)
-  ![Mystical_Flag_Selection](./SS/Mystical_Flag_Selection.png)
-
-- Added featured flag selection to profile (UI) and implemented in gameplay.
-- Improved shaders and applied optimisations.
-- Refactored existing codebase using design patterns for better structure and readability.
-- Fixed bugs and resolved errors to enhance stability.
-- Applied improvements to multiplayer functionality.
-
+- 
 ### Enjoy the Game
-
 ---
