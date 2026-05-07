@@ -195,6 +195,19 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 - **Performans & Optimization**
 *Caption: The game has been optimized for devices using the Mali‑G52 GPU, achieving a minimum of 60 FPS under normal conditions. Exceptions may occur during extended play sessions or when thermal levels rise.With V1.0.3 , Improved shaders and applied some optimisations.*
 
-- 
+### Developer Diaries - Rolora V1.0.4 (Coming Soon)
+- **Skyfol**
+![Skyfold](./SS/Skyfold.png)
+*Caption: The flag, which is named 'Skyfold,' allows the use of revival items that are purchased in the store as well as winning double loot from all. If the users have this flag and revival item, they can revive again from game over.*
+
+- **Shader Visual Improvements**
+*Caption : For colorful maps, some shaders have been improved to get better quality visuals.*
+*Caption : Some shaders have been optimized to get better performance without losing visual quality.*
+
+- **VFX For Rewards**
+*Caption : At the multiplayer scene: The reward cards that are gathered randomly from reward chests have been equipped with VFX & shader effects.*
+
+- **Code Refactor**
+*Caption : The codebase is improved. To be potential bugs, failures that might arise are fixed. * 
 ### Enjoy the Game
 ---
