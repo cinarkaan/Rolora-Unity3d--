@@ -198,7 +198,9 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 ### Developer Diaries - Rolora V1.0.4 (Coming Soon)
 - **Skyfold**
 ![Skyfold](./SS/Skyfold.png)
-*Caption: The flag, which is named 'Skyfold,' allows the use of revival items that are purchased in the store as well as winning double loot from all. If the users have this flag and revival item, they can revive again from game over.*
+![Revial](./SS/Revival.png)
+- *Caption: The flag, which is named 'Skyfold,' allows the use of revival items that are purchased in the store as well as winning double loot from all. If the users have this flag and revival item, they can revive again from game over.*
+- *Caption: The revival item can be used if the player has the 'Skyfold' flag. The item is able to be purchased in the store, but if the player does not have that flag, he/she cannot use it.*
 
 - **Shader Visual Improvements**
 *Caption : For colorful maps, some shaders have been improved to get better quality visuals.*
