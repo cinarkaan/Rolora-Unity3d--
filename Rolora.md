@@ -199,6 +199,7 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 - **Skyfold**
 ![Skyfold](./SS/Skyfold.png)
 ![Revial](./SS/Revival.png)
+![RevivalItem](./SS/RevivalItem.png)
 - *Caption: The flag, which is named 'Skyfold,' allows the use of revival items that are purchased in the store as well as winning double loot from all. If the users have this flag and revival item, they can revive again from game over.*
 - *Caption: The revival item can be used if the player has the 'Skyfold' flag. The item is able to be purchased in the store, but if the player does not have that flag, he/she cannot use it.*
 
