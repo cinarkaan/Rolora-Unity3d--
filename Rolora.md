@@ -195,7 +195,7 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 - **Performans & Optimization**
 *Caption: The game has been optimized for devices using the Mali‑G52 GPU, achieving a minimum of 60 FPS under normal conditions. Exceptions may occur during extended play sessions or when thermal levels rise.With V1.0.3 , Improved shaders and applied some optimisations.*
 
-### Developer Diaries - Rolora V1.0.4 (Coming Soon)
+### Developer Diaries - Rolora V1.0.4 (Begin Of The Second Week Of The April)
 - **Skyfold**
 ![Skyfold](./SS/Skyfold.png)
 ![Revial](./SS/Revival.png)
