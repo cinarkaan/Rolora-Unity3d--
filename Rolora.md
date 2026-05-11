@@ -195,13 +195,15 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 - **Performans & Optimization**
 *Caption: The game has been optimized for devices using the Mali‑G52 GPU, achieving a minimum of 60 FPS under normal conditions. Exceptions may occur during extended play sessions or when thermal levels rise.With V1.0.3 , Improved shaders and applied some optimisations.*
 
-### Developer Diaries - Rolora V1.0.4 (Begin Of The Second Week Of The April)
+### Developer Diaries - Rolora V1.0.4 (End of the 3rd week of April)
 - **Skyfold**
 ![Skyfold](./SS/Skyfold.png)
-![Revial](./SS/Revival.png)
+- - *Caption: The flag, which is named 'Skyfold,' allows the use of revival items that are purchased in the store as well as winning double loot from all. If the users have this flag and revival item, they can revive again from game over.*
+- ![Revial](./SS/Revival.png)
 ![RevivalItem](./SS/RevivalItem.png)
-- *Caption: The flag, which is named 'Skyfold,' allows the use of revival items that are purchased in the store as well as winning double loot from all. If the users have this flag and revival item, they can revive again from game over.*
 - *Caption: The revival item can be used if the player has the 'Skyfold' flag. The item is able to be purchased in the store, but if the player does not have that flag, he/she cannot use it.*
+- ![RevivalCard](./SS/RevivalCard.png)
+- *Caption: The revival item can be gathered from the rewards card after victory in the multiplayer challenge, of course, if you are lucky ...*
 
 - **Shader Visual Improvements**
 *Caption : For colorful maps, some shaders have been improved to get better quality visuals.*
