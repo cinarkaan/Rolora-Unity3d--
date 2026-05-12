@@ -1,4 +1,4 @@
-﻿# ROLORA - Version 1.0.3
+﻿# ROLORA - Version 1.0.3 (Live)
 
 # Overview
 
@@ -156,12 +156,8 @@ The colorful cube must reach the evacuation point by rolling onto tiles that mat
   *Caption: Purchase cosmetics and view owned items before starting a stage.*
 
 - **Map Colorful**        
-  ![Colorful](./SS/Guide.png) 
-  ![Colorful](./SS/Colorful-1.png)  
-  ![Colorful](./SS/Colorful-2.png)
-  ![Colorful](./SS/Colorful-3.png)
-  ![Colorful](./SS/Colorful-4.png)
-  ![Colorful](./SS/Colorful-5.png) 
+  ![Colorful-1](./SS/Colorful-1.png)  
+  ![Colorful-2](./SS/Colorful-2.png) 
   *Caption: The Colorful map introduces four stages, each beginning with a guide that explains the objectives. Players can skip the guide using the forward button if they prefer. Across the stages, three dynamic weather conditions appear — sunny with floating dust particles, rainy, and snowy — adding variety and atmosphere to the gameplay.*
 
 - **Map Ancient**        
@@ -198,11 +194,11 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 ### Developer Diaries - Rolora V1.0.4 (End of the 3rd week of April)
 - **Skyfold**
 ![Skyfold](./SS/Skyfold.png)
-- - *Caption: The flag, which is named 'Skyfold,' allows the use of revival items that are purchased in the store as well as winning double loot from all. If the users have this flag and revival item, they can revive again from game over.*
+- *Caption: The flag, which is named 'Skyfold,' allows the use of revival items that are purchased in the store as well as winning double loot from all. If the users have this flag and revival item, they can revive again from game over.*
 - ![Revial](./SS/Revival.png)
 ![RevivalItem](./SS/RevivalItem.png)
 - *Caption: The revival item can be used if the player has the 'Skyfold' flag. The item is able to be purchased in the store, but if the player does not have that flag, he/she cannot use it.*
-- ![RevivalCard](./SS/RevivalCard.png)
+![RevivalCard](./SS/RevivalCard.png)
 - *Caption: The revival item can be gathered from the rewards card after victory in the multiplayer challenge, of course, if you are lucky ...*
 
 - **Shader Visual Improvements**
