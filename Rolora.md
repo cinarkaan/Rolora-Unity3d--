@@ -11,7 +11,6 @@ The project is a solo commercial game in active development for Android with iOS
 ## Key Features
 
 - **Game Modes**: Single player (3 maps × 4 stages = 12 stages) and local multiplayer (LAN).
-- **Demo**: 10‑minute demo with multiplayer disabled.
 - **Core Mechanic**: Color‑matching cube — the cube’s bottom face must match the tile you roll onto.
 - **Procedural Levels**: DFS‑based generation with seed support for reproducible runs.
 - **AI**: Enemies use A* pathfinding with dynamic replanning.
