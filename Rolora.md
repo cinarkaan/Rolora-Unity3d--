@@ -201,21 +201,25 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 - *Caption: The revival item can be gathered from the rewards card after victory in the multiplayer challenge, of course, if you are lucky ...*
 
 - **Shader Visual Improvements**
-*Caption : For colorful maps, some shaders have been improved to get better quality visuals.*
-*Caption : Some shaders have been optimized to get better performance without losing visual quality.*
+- *Caption : For colorful maps, some shaders have been improved to get better quality visuals.*
+- *Caption : Some shaders have been optimized to get better performance without losing visual quality.*
 
 - **VFX For Rewards**
-*Caption : At the multiplayer scene: The reward cards that are gathered randomly from reward chests have been equipped with VFX & shader effects.*
+- *Caption : At the multiplayer scene: The reward cards that are gathered randomly from reward chests have been equipped with VFX & shader effects.*
 
 - **Code Refactor**
-*Caption : The codebase is improved. To be potential bugs, failures that might arise are fixed.* 
+- *Caption : The codebase is improved. To be potential bugs, failures that might arise are fixed.* 
 
-### Developer Diaries - Rolora v1.0.5 (Coming Soon)
+### Developer Diaries - Rolora v2.0.0 (Coming Soon)
+- **New Map : POISONED**
+![Poisoned](./SS/Poisoned.png)
+- *Caption: The environment that is surrounded with toxic sea and biohazard obstacles and enemies is being designed for players. So new adventures are loading with renewed.*
+
 - **Shader Improvements**
-*Caption: The lighting calculation model is changed.*
-*Caption: Visual Improvements.*
-*Caption: GPU optimizations: Better FPS For the devices support a higher refresh rate than 60 Hz.*
-*Caption: Code Refactor.*
+- *Caption: The lighting calculation model is changed.*
+- *Caption: Visual Improvements.*
+- *Caption: GPU optimizations: Better FPS For the devices support a higher refresh rate than 60 Hz.*
+- *Caption: Code Refactor.*
  
 ### Enjoy the Game
 ---
