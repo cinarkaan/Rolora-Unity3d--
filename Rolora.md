@@ -213,6 +213,7 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 ### Developer Diaries - Rolora v2.0.0 (Coming Soon)
 - **New Map : POISONED**
 ![Poisoned](./SS/Poisoned.png)
+![Poisoned](./SS/Poisoned-2.png)
 - *Caption: The environment that is surrounded with toxic sea and biohazard obstacles and enemies is being designed for players. So new adventures are loading with renewed.*
 
 - **Shader Improvements**
