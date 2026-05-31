@@ -215,8 +215,10 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 ![Poisoned](./SS/Poisoned.png)
 ![Poisoned](./SS/Poisoned-2.png)
 - *Caption: The environment that is surrounded with toxic sea and biohazard obstacles and enemies is being designed for players. So new adventures are loading with renewed.*
+- *Caption: This new adventure is to challenge a hazardous environment and has a different atmosphere.*
 
 - ![AncientRenewed](./SS/AncientRenewed.png)
+- ![AncientRenewd](./SS/AncientRenewed-2.png)
 - *Caption: The ancient shaders have been renewed with improved quality shaders, lighting calculation, and light types. Performance has been made better.*
 
 - **Shader Improvements**
