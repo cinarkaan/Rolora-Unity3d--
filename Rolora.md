@@ -210,7 +210,7 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 - **Code Refactor**
 - *Caption : The codebase is improved. To be potential bugs, failures that might arise are fixed.* 
 
-### Developer Diaries - Rolora v2.0.0 (Coming Soon)
+### Developer Diaries - Rolora v2.0.0 (Coming Soon , Estimated in July)
 - **New Map : POISONED**
 ![Poisoned](./SS/Poisoned.png)
 ![Poisoned](./SS/Poisoned-2.png)
@@ -220,6 +220,10 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 - ![AncientRenewed](./SS/AncientRenewed.png)
 - ![AncientRenewd](./SS/AncientRenewed-2.png)
 - *Caption: The ancient shaders have been renewed with improved quality shaders, lighting calculation, and light types. Performance has been made better.*
+
+- ![ColorfulRenewed](./SS/Colorful-Renewed-1.png)
+- ![ColorfulRenewed](./SS/Colorful-Renewed-2.png)
+- *Caption: The colorful shaders have been renewed with improved quality shaders, lighting calculation. Performance has been made better.*
 
 - **Shader Improvements**
 - *Caption: The lighting calculation model is changed.*
