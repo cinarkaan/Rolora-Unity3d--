@@ -225,7 +225,8 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 - ![ColorfulRenewed](./SS/Colorful-Renewed-2.png)
 - *Caption: The colorful shaders have been renewed with improved quality shaders, lighting calculation. Performance has been made better.*
 
-- ![MysticalRenewed](./SS/Mystical-Renewed.png)
+- ![MysticalRenewed](./SS/Mystical-Renewed-1.png)
+- ![MysticalRenewed](./SS/Mystical-Renewed-2.png)
 - *Caption: The mystical shaders have been renewed with improved quality lighting and better shader performances.*
 
 - **Shader Improvements**
