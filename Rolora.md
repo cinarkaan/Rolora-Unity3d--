@@ -210,12 +210,7 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 - **Code Refactor**
 - *Caption : The codebase is improved. To be potential bugs, failures that might arise are fixed.* 
 
-### Developer Diaries - Rolora v2.0.0 (Coming Soon , Estimated in July)
-- **New Map : POISONED**
-![Poisoned](./SS/Poisoned.png)
-![Poisoned](./SS/Poisoned-2.png)
-- *Caption: The environment that is surrounded with toxic sea and biohazard obstacles and enemies is being designed for players. So new adventures are loading with renewed.*
-- *Caption: This new adventure is to challenge a hazardous environment and has a different atmosphere.*
+### Developer Diaries - Rolora v2.0.0 (Coming Soon, Estimated At The Beginning Of The 4th Week Of June)
 
 - ![AncientRenewed](./SS/AncientRenewed.png)
 - ![AncientRenewd](./SS/AncientRenewed-2.png)
@@ -234,6 +229,14 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 - *Caption: Visual Improvements.*
 - *Caption: GPU optimizations: Better FPS For the devices support a higher refresh rate than 60 Hz.*
 - *Caption: Code Refactor.*
- 
+
+### Developer Diaries - Rolora v2.0.1 (Coming Soon , Estimated in July)
+- **New Map : POISONED**
+![Poisoned](./SS/Poisoned.png)
+![Poisoned](./SS/Poisoned-2.png)
+- *Caption: The environment that is surrounded with toxic sea and biohazard obstacles and enemies is being designed for players. So new adventures are loading with renewed.*
+- *Caption: This new adventure is to challenge a hazardous environment and has a different atmosphere.*
+
+
 ### Enjoy the Game
 ---
