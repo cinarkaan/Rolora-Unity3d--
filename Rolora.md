@@ -211,7 +211,6 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 - *Caption : The codebase is improved. To be potential bugs, failures that might arise are fixed.* 
 
 ### Developer Diaries - Rolora v2.0.0 (Coming Soon, Estimated At The Beginning Of The 4th Week Of June)
-
 - ![AncientRenewed](./SS/AncientRenewed.png)
 - ![AncientRenewd](./SS/AncientRenewed-2.png)
 - *Caption: The ancient shaders have been renewed with improved quality shaders, lighting calculation, and light types. Performance has been made better.*
@@ -223,6 +222,21 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 - ![MysticalRenewed](./SS/Mystical-Renewed-1.png)
 - ![MysticalRenewed](./SS/Mystical-Renewed-2.png)
 - *Caption: The mystical shaders have been renewed with improved quality lighting and better shader performances.*
+
+- ![MultiplayerEvent](./SS/MultiplayerEvent.png)
+- *Caption : At the multiplayer scene, the event spawn rates depend on the time of the day; the shield item is to be spawned by the server. *
+- *Caption : If the shield is not taken by any player, it will be destoryed itself within 10 seconds.*
+- *Caption : The protected duration of the shield is setted 7 seconds at the multiplayer.*
+- *Caption : The perfections that get from frames are not validated in the multiplayer, except from the "DarkIvy" frame, which is protected against the dwarf at the mystical map.*
+
+| Start-Time | End-Time | Spawn-Possibility | Status
+| :---: | :---: | :---: | :--- |
+| 09:00 AM | 07:00 PM | **55%** | Medium Chance 
+| 08:00 PM | 00:00 AM | **90%** | High Chance 
+| 00:00 AM | 09:00 AM | **20%** | Low Chance
+| 19:00 PM | 20:00 PM | **20%** | Low Chance
+
+- *Caption : Rest of the these day times , the shield spawn rates is to be settled as %20.*
 
 - **Shader Improvements**
 - *Caption: The lighting calculation model is changed.*
@@ -236,7 +250,6 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 ![Poisoned](./SS/Poisoned-2.png)
 - *Caption: The environment that is surrounded with toxic sea and biohazard obstacles and enemies is being designed for players. So new adventures are loading with renewed.*
 - *Caption: This new adventure is to challenge a hazardous environment and has a different atmosphere.*
-
 
 ### Enjoy the Game
 ---

@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <script src="filter.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROLORA - Overview</title>
+    <link rel="icon" type="image/png" href="../SS/App_Icon.png">
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --card-bg: #161b22;
+            --accent-color: #58a6ff;
+            --text-color: #c9d1d9;
+            --text-muted: #8b949e;
+            --border-color: #30363d;
+            --success-color: #2ea44f;
+            --warning-color: #d29922;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            color: #fff;
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+        }
+
+        .version-badge {
+            background-color: var(--success-color);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        h2 {
+            color: #fff;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+            margin-top: 40px;
+        }
+
+        h3 {
+            color: var(--accent-color);
+        }
+
+        p {
+            margin: 1em 0;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        strong {
+            color: #fff;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        @media (min-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        .screenshot-group {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 40px;
+            text-align: center; 
+        }
+
+        .screenshot-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center; 
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            transition: transform 0.3s ease, box-shadow 0.3s ease; 
+        }
+
+        .screenshot-gallery img {
+            width: calc(50% - 10px); 
+            min-width: 280px; 
+            max-width: 420px; 
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .screenshot-gallery img:hover {
+            transform: scale(1.03); 
+            box-shadow: 0 8px 24px rgba(88, 166, 255, 0.2); 
+            border-color: var(--accent-color);
+        }
+
+        .caption {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            margin-top: 15px;
+            font-style: italic;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.5;
+        }
+        .badge-link {
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .badge-link img {
+            height: 50px;
+            border: none;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        th {
+            background-color: #1f242c;
+            color: #fff;
+        }
+
+        .high-chance { color: var(--success-color); font-weight: bold; }
+        .medium-chance { color: var(--warning-color); font-weight: bold; }
+        .low-chance { color: #f85149; font-weight: bold; }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: var(--border-color);
+            margin: 40px 0;
+        }
+
+        blockquote {
+            border-left: 4px solid var(--accent-color);
+            padding-left: 15px;
+            color: var(--text-muted);
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>ROLORA</h1>
+        <span class="version-badge">Version 1.0.4 (Live)</span>
+    </header>
+
+    <section id="overview">
+        <h2>Overview</h2>
+        <p><strong>Rolora</strong> is a mobile action‑puzzle adventure where you roll the either color or texture ‑ sided cube across procedurally generated platforms to reach an evacuation point.</p>
+        <p>Each face of the cube must match the tile beneath it; stages grow longer and more challenging as you progress. The project is a solo commercial game in active development for Android with iOS planned next.</p>
+    </section>
+
+    <hr>
+
+    <section id="key-features">
+        <h2>Key Features</h2>
+        <ul>
+            <li><strong>Game Modes:</strong> Single player (3 maps × 4 stages = 12 stages) and local multiplayer (LAN).</li>
+            <li><strong>Core Mechanic:</strong> Color‑matching cube — the cube’s bottom face must match the tile you roll onto.</li>
+            <li><strong>Procedural Levels:</strong> DFS‑based generation with seed support for reproducible runs.</li>
+            <li><strong>AI:</strong> Enemies use A* pathfinding with dynamic replanning.</li>
+            <li><strong>Networking:</strong> UDP‑based LAN multiplayer with lightweight reliability for critical messages.</li>
+            <li><strong>Engine and Rendering:</strong> Unity, C#, URP (SRP), custom HLSL shaders; Vulkan 1.0+ and OpenGL ES 3.2+ backends.</li>
+            <li><strong>Localization:</strong> Native support for English, French, German, Spanish.</li>
+            <li><strong>Performance Target:</strong> Optimized for Mali‑G52 devices with a measured baseline of 60 FPS under normal conditions.</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section id="gameplay">
+        <h2>Gameplay</h2>
+        
+        <h3>🎮 Rolora Gameplay Teaser</h3>
+        <a href="https://youtu.be/DsVwCFv9vMI" target="_blank">
+            <img src="https://img.youtube.com/vi/DsVwCFv9vMI/maxresdefault.jpg" alt="Rolora Gameplay Teaser" style="max-width: 400px;">
+        </a>
+
+        <h3>Google Play Link</h3>
+        <a href="https://store.apple.com" class="badge-link">
+            <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play">
+        </a>
+
+        <p><strong>Objective:</strong> Roll the cube to the evacuation point. Each time the cube rolls, the face that becomes the bottom must match the tile color or state beneath it. Rolling onto a nonmatching tile deducts time or points depending on the mode.</p>
+
+        <div class="grid">
+            <div class="card">
+                <h3>Controls</h3>
+                <ul>
+                    <li><strong>Movement:</strong> On‑screen left and right buttons.</li>
+                    <li><strong>Camera:</strong> Swipe left or right to rotate the view around the cube.</li>
+                    <li><strong>UI:</strong> Inventory, stats, and contextual action buttons are available in the HUD.</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Progression</h3>
+                <ul>
+                    <li><strong>Maps:</strong> Colorful, Ancient, Mystical — each map contains four stages.</li>
+                    <li><strong>Dynamic Tiles:</strong> Tiles toggle between original and dummy states every 3 seconds.</li>
+                    <li><strong>Customization:</strong> Frames and materials provide modifiers (e.g., <strong>+20% shield duration</strong>).</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="technical-details">
+        <h2>Technical Details and Performance</h2>
+        
+        <h3>Procedural Generation</h3>
+        <p><strong>Algorithm:</strong> DFS for platform layout and event placement. Seedable generation ensures deterministic runs for QA and leaderboards. Tunable parameters include enemy spawn rate, obstacle frequency, dynamic tile ratio, and loot probability.</p>
+
+        <h3>Abstract Factory Pattern — Platform Creation</h3>
+        <p>In Rolora, platform instantiation is implemented using the <strong>Abstract Factory pattern</strong>. Each map is backed by its own <code>PlatformFactory</code> abstraction. This provides easy extensibility, map-specific customization, and testability.</p>
+
+        <h3>AI, Rendering & Networking</h3>
+        <ul>
+            <li><strong>AI & Pathfinding:</strong> A* on a grid with grouped path updates and LOD for distant agents.</li>
+            <li><strong>Rendering:</strong> URP with mobile‑optimized HLSL shaders. Employs GPU instancing and reduced shader variants.</li>
+            <li><strong>Networking:</strong> UDP protocol with application‑level reliability. LAN broadcast/mDNS for lobby discovery.</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section id="how-to-play">
+        <h2>How To Play</h2>
+        <h3>Android</h3>
+        <p>The movement buttons are placed on both the left and right sides of the screen. You can control movement and interact with UI elements by pressing these buttons. To change the point of view, simply slide your finger slightly from left to right or right to left.</p>
+        <h3>Purpose</h3>
+        <p>The colorful cube must reach the evacuation point by rolling onto tiles that match its bottom face color. Each new stage introduces longer platforms and more difficult obstacles.</p>
+    </section>
+
+    <hr>
+
+    <section id="screenshots">
+        <h2>Assets Screenshots and Captions</h2>
+
+        <div class="screenshot-group">
+            <h3>Main Menu & Settings</h3>
+            <div class="screenshot-gallery">
+                <img src="../SS/MainMenu.png" alt="Main Menu">
+                <img src="../SS/Settings.png" alt="Settings">
+            </div>
+            <div class="caption">Main menu with progression tracking and settings toggles (Language, Graphics, Audio).</div>
+        </div>
+
+        <div class="screenshot-group">
+            <h3>Multiplayer LAN Play</h3>
+            <p>Discovery via UDP broadcast. Win condition: First player to reach the evacuation point wins.</p>
+            <div class="screenshot-gallery">
+                <img src="../SS/Multiplayer.png" alt="Multiplayer Lobby">
+                <img src="../SS/CreateGame.png" alt="Create Game">
+                <img src="../SS/JoinGame.png" alt="Join Game">
+                <img src="../SS/RewardsMultiplayer.png" alt="Rewards">
+                <img src="../SS/Multiplayer_Scene.png" alt="In Game">
+            </div>
+            <div class="caption">Lobby system, host configurations, in-game stats, and rewards calculation screens.</div>
+        </div>
+
+        <div class="screenshot-group">
+            <h3>Maps & Customization</h3>
+            <div class="screenshot-gallery">
+                <img src="../SS/MapSelection.png" alt="Map Selection">
+                <img src="../SS/Store.png" alt="Store">
+                <img src="../SS/ColorfulProfile.png" alt="Profile Colorful">
+                <img src="../SS/AncientProfile.png" alt="Profile Ancient">
+            </div>
+            <div class="caption">Choose maps, preview cosmetics/materials, and view stat modifiers in your Profile.</div>
+        </div>
+
+        <div class="screenshot-group">
+            <h3>Map: Colorful</h3>
+            <div class="screenshot-gallery">
+                <img src="../SS/Colorful-1.png" alt="Colorful 1">
+                <img src="../SS/Colorful-2.png" alt="Colorful 2">
+            </div>
+            <div class="caption">Features 4 stages with dynamic weather conditions (sunny, rainy, snowy).</div>
+        </div>
+
+        <div class="screenshot-group">
+            <h3>Map: Ancient</h3>
+            <div class="screenshot-gallery">
+                <img src="../SS/Ancient-1.png" alt="Ancient">
+                <img src="../SS/Ancient_Obstacles.png" alt="Obstacles">
+                <img src="../SS/Ancient_Cannon.png" alt="Cannon">
+                <img src="../SS/Ancient_Turret.png" alt="Turret">
+            </div>
+            <div class="caption">Surrounded by a lava sea, requiring activation of rotary bridges and keys.</div>
+        </div>
+
+        <div class="screenshot-group">
+            <h3>Map: Mystical</h3>
+            <div class="screenshot-gallery">
+                <img src="../SS/Mystical_1.png" alt="Mystical 1">
+                <img src="../SS/Mystical_2.png" alt="Mystical 2">
+                <img src="../SS/Mystical_Dwarf.png" alt="Dwarf Enemy">
+            </div>
+            <div class="caption">Enchanting visuals with high endurance demands, featuring a formidable dwarf enemy.</div>
+        </div>
+
+        <div class="card">
+            <h3>Localization & Optimization</h3>
+            <p>
+                <strong>Languages:</strong> 
+                <img src="https://flagcdn.com/w20/gb.png" alt="UK"> English, 
+                <img src="https://flagcdn.com/w20/fr.png" alt="FR"> French, 
+                <img src="https://flagcdn.com/w20/de.png" alt="DE"> German, 
+                <img src="https://flagcdn.com/w20/es.png" alt="ES"> Spanish.
+            </p>
+            <p><strong>Dynamic Tiles:</strong> Alternates states every 3 seconds based on custom shader settings.</p>
+            <p><strong>Optimization:</strong> Solid 60 FPS target on Mali-G52 GPUs.</p>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="dev-diaries-v104">
+        <h2>Developer Diaries – Rolora v1.0.4 (What’s New)</h2>
+        <div class="screenshot-group">
+            <h3>Skyfold Flag & Revival System</h3>
+            <div class="screenshot-gallery">
+                <img src="../SS/Skyfold.png" alt="Skyfold">
+                <img src="../SS/Revival.png" alt="Revival">
+                <img src="../SS/RevivalItem.png" alt="Revival Item">
+            </div>
+            <div class="caption">The 'Skyfold' flag allows double loot and triggers revival mechanics via store items or multiplayer reward cards.</div>
+        </div>
+        <ul>
+            <li><strong>Shader Visual Improvements:</strong> Enhanced visual quality for colorful maps.</li>
+            <li><strong>VFX For Rewards:</strong> Added shader and particle effects to multiplayer reward cards.</li>
+            <li><strong>Code Refactor:</strong> Fixed critical bugs and improved architecture stability.</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section id="dev-diaries-v200">
+        <h2>Developer Diaries - Rolora v2.0.0 (Coming Soon - June Week 4)</h2>
+        <div class="screenshot-gallery">
+            <img src="../SS/AncientRenewed.png" alt="Ancient Renewed">
+            <img src="../SS/Colorful-Renewed-1.png" alt="Colorful Renewed">
+            <img src="../SS/Mystical-Renewed-1.png" alt="Mystical Renewed">
+            <img src="../SS/MultiplayerEvent.png" alt="Multiplayer Event">
+        </div>
+        <div class="caption">Renewed lighting calculations, improved shader performance, and dynamic multiplayer events.</div>
+
+        <h3>Shield Spawn Rates (Multiplayer)</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Start-Time</th>
+                    <th>End-Time</th>
+                    <th>Spawn-Possibility</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>09:00 AM</td>
+                    <td>07:00 PM</td>
+                    <td class="medium-chance">55%</td>
+                    <td>Medium Chance</td>
+                </tr>
+                <tr>
+                    <td>08:00 PM</td>
+                    <td>00:00 AM</td>
+                    <td class="high-chance">90%</td>
+                    <td>High Chance</td>
+                </tr>
+                <tr>
+                    <td>00:00 AM</td>
+                    <td>09:00 AM</td>
+                    <td class="low-chance">20%</td>
+                    <td>Low Chance</td>
+                </tr>
+                <tr>
+                    <td>07:00 PM</td>
+                    <td>08:00 PM</td>
+                    <td class="low-chance">20%</td>
+                    <td>Low Chance</td>
+                </tr>
+            </tbody>
+        </table>
+        <blockquote>
+            * Rest of these hours, the shield spawn rate settles at 20%. Shields destroy themselves within 10 seconds if untaken. Protection lasts 7 seconds.
+        </blockquote>
+    </section>
+
+    <hr>
+
+    <section id="dev-diaries-v201">
+        <h2>Developer Diaries - Rolora v2.0.1 (Coming in July)</h2>
+        <h3>New Map : POISONED</h3>
+        <div class="screenshot-gallery">
+            <img src="../SS/Poisoned.png" alt="Poisoned 1">
+            <img src="../SS/Poisoned-2.png" alt="Poisoned 2">
+        </div>
+        <div class="caption">A hazardous environment surrounded by a toxic sea, presenting biohazard obstacles and dangerous new enemies.</div>
+    </section>
+
+    <hr>
+
+    <footer style="text-align: center; margin-top: 50px;">
+        <h2>Enjoy the Game!</h2>
+        <p class="caption">Copyright © 2026 Kaan Çınar All rights reserved.</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
