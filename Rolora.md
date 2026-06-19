@@ -229,6 +229,7 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 - *Caption : The protected duration of the shield is setted 7 seconds at the multiplayer.*
 - *Caption : The perfections that get from frames are not validated in the multiplayer, except from the "DarkIvy" frame, which is protected against the dwarf at the mystical map.*
 
+### Event Hours For Multiplayer
 | Start-Time | End-Time | Spawn-Possibility | Status
 | :---: | :---: | :---: | :--- |
 | 09:00 AM | 07:00 PM | **55%** | Medium Chance 
@@ -237,6 +238,9 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 | 19:00 PM | 20:00 PM | **20%** | Low Chance
 
 - *Caption : Rest of the these day times , the shield spawn rates is to be settled as %20.*
+
+- ![MenuRenewed](./SS/MenuRenewed.png)
+- *Caption : The main menu has been renewed by using irregular lighting source that is to be static.It behaviour just like the candle light. It has the animation that distortion.*
 
 - **Shader Improvements**
 - *Caption: The lighting calculation model is changed.*
