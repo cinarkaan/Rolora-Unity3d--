@@ -100,11 +100,11 @@ The colorful cube must reach the evacuation point by rolling onto tiles that mat
 ## Assets Screenshots and Captions
 
 - **Main Menu**  
-  ![Main Menu](./SS/MenuRenewed.png)  
+  ![Main Menu](./docs/assets/MenuRenewed.png)  
   *Caption: Main menu with Play, Settings, Profile, and Store entries. The players will start to game in here after lauched app. But if the tutorial already had passed , they must would have been continued by clicking the button of continuous by progressing in the store. Otherwise the recorded game is reseted.**
 
 - **Settings**  
-  ![Settings](./SS/Settings.png)  
+  ![Settings](./docs/assets/Settings.png)  
   *Caption: Language,Graphics and audio toggles; post‑processing recommended for high‑end devices.*
 
 ## Multiplayer
@@ -117,62 +117,62 @@ The colorful cube must reach the evacuation point by rolling onto tiles that mat
 - **Networking Notes**: UDP chosen for low latency; critical messages use sequence numbers and lightweight ACKs to mitigate packet loss. Lobby discovery is LAN only; if connection is lost both players return to the main menu.
 
 - **Multiplayer Lobby**  
-  ![Multiplayer Lobby](./SS/Multiplayer.png)  
+  ![Multiplayer Lobby](./docs/assets/Multiplayer.png)  
   *Caption: Create or join a LAN lobby; configure stage and difficulty.*
 
 - **Create Game**  
-  ![Create Game](./SS/CreateGame.png)  
+  ![Create Game](./docs/assets/CreateGame.png)  
   *Caption: Host settings for grid size, difficulty, and stage selection.*
 
 - **Join Game**  
-  ![Join Game](./SS/JoinGame.png)  
+  ![Join Game](./docs/assets/JoinGame.png)  
   *Caption: Discover and join available local lobbies.*
 
 - **Rewards**  
-  ![Rewards](./SS/RewardsMultiplayer.png)  
+  ![Rewards](./docs/assets/RewardsMultiplayer.png)  
   *Caption: In multiplayer mode, rolling your cube onto a non‑matching tile deducts points from your total score. Final scores are calculated from these totals, which directly determine the rewards earned. Higher scores unlock better reward cards, giving players access to valuable items and bonuses.*
 
 - **In Game**
-  ![Multiplayer](./SS/Multiplayer_Scene.png)  
+  ![Multiplayer](./docs/assets/Multiplayer_Scene.png)  
   *Caption: In multiplayer mode, players can view detailed statistics for each participant. A dedicated button above the map provides quick access to these stats, allowing both competitors to track performance, compare progress, and review results during or after a match.*
 
 - **Map Selection**  
-  ![Map Selection](./SS/MapSelection.png)  
-  ![Stage Selection](./SS/StageSelection.png)  
+  ![Map Selection](./docs/assets/MapSelection.png)  
+  ![Stage Selection](./docs/assets/StageSelection.png)  
 - *Caption: Choose a map and stage to continue progress or start a new run.*
 
 - **Profile Colorful**  
-  ![Profile Colorful1](./SS/Colorful-Profile-1.png)  			
-  ![Profile Colorful2](./SS/Colorful-Profile-2.png)  			
-  ![Colorful_Flag_Selection](./SS/Colorful_Flag_Selection.png)
-  ![Profile Ancient1](./SS/Ancient-Profile-1.png)
-  ![Profile Ancient2](./SS/Ancient-Profile-2.png)
-  ![Ancient_Flag_Selection](./SS/Ancient_Flag_Selection.png)
-  ![Profile Mystical1](./SS/Mystical-Profile-1.png)
-  ![Profile Mystical2](./SS/Mystical-Profile-2.png)
-  ![Mystical_Flag_Selection](./SS/Mystical_Flag_Selection.png)
+  ![Profile Colorful1](./docs/assets/Colorful-Profile-1.png)  			
+  ![Profile Colorful2](./docs/assets/Colorful-Profile-2.png)  			
+  ![Colorful_Flag_Selection](./docs/assets/Colorful_Flag_Selection.png)
+  ![Profile Ancient1](./docs/assets/Ancient-Profile-1.png)
+  ![Profile Ancient2](./docs/assets/Ancient-Profile-2.png)
+  ![Ancient_Flag_Selection](./docs/assets/Ancient_Flag_Selection.png)
+  ![Profile Mystical1](./docs/assets/Mystical-Profile-1.png)
+  ![Profile Mystical2](./docs/assets/Mystical-Profile-2.png)
+  ![Mystical_Flag_Selection](./docs/assets/Mystical_Flag_Selection.png)
   *Caption: Material,frame,flag preview with stat modifiers.*
 
 - **Store**  
-  ![Store](./SS/Store.png)  
+  ![Store](./docs/assets/Store.png)  
   *Caption: Purchase cosmetics and view owned items before starting a stage.*
 
 - **Map Colorful**        
-  ![Colorful-1](./SS/Colorful-Renewed-1.png)  
-  ![Colorful-2](./SS/Colorful-Renewed-2.png) 
-  ![Colorful-2](./SS/Colorful-Renewed-3.png)  
+  ![Colorful-1](./docs/assets/Colorful-Renewed-1.png)  
+  ![Colorful-2](./docs/assets/Colorful-Renewed-2.png) 
+  ![Colorful-2](./docs/assets/Colorful-Renewed-3.png)  
   *Caption: The Colorful map introduces four stages, each beginning with a guide that explains the objectives. Players can skip the guide using the forward button if they prefer. Across the stages, three dynamic weather conditions appear — sunny with floating dust particles, rainy, and snowy — adding variety and atmosphere to the gameplay.*
 
 - **Map Ancient**        
-  ![Ancient](./SS/AncientRenewed-1.png)  
-  ![Ancient](./SS/AncientRenewed-2.png)  
-  ![Ancient](./SS/AncientRenewed-3.png)  
+  ![Ancient](./docs/assets/AncientRenewed-1.png)  
+  ![Ancient](./docs/assets/AncientRenewed-2.png)  
+  ![Ancient](./docs/assets/AncientRenewed-3.png)  
   *Caption: The Ancient map unlocks after completing Colorful and surrounds players with a dangerous lava sea. It is longer and more complex than Colorful, requiring activation of rotary bridges and collection of keys to progress. Obstacles are more challenging, and emerald loot appears with a higher probability, rewarding careful exploration.*
 
 - **Map Mystical**        
-  ![Mystical](./SS/Mystical-Renewed-1.png)
-  ![Mystical](./SS/Mystical-Renewed-2.png)
-  ![Mystical](./SS/Mystical-Renewed-3.png)	 
+  ![Mystical](./docs/assets/Mystical-Renewed-1.png)
+  ![Mystical](./docs/assets/Mystical-Renewed-2.png)
+  ![Mystical](./docs/assets/Mystical-Renewed-3.png)	 
   *Caption: The Mystical map is the final stage of the game, offering a magical atmosphere that feels lighter in complexity than Ancient but more demanding in endurance. Its enchanting visuals and ambience create surprises throughout, while the last stage introduces a formidable dwarf enemy that players must watch out for.*
 
 - **Localization Support**
@@ -191,19 +191,19 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 
 
 ### Developer Diaries - Rolora v2.0.0 (Coming Soon, Estimated At The Beginning Of The 4th Week Of June)
-- ![AncientRenewed](./SS/AncientRenewed-1.png)
-- ![AncientRenewd](./SS/AncientRenewed-2.png)
+- ![AncientRenewed](./docs/assets/AncientRenewed-1.png)
+- ![AncientRenewd](./docs/assets/AncientRenewed-2.png)
 - *Caption: The ancient shaders have been renewed with improved quality shaders, lighting calculation, and light types. Performance has been made better.*
 
-- ![ColorfulRenewed](./SS/Colorful-Renewed-1.png)
-- ![ColorfulRenewed](./SS/Colorful-Renewed-2.png)
+- ![ColorfulRenewed](./docs/assets/Colorful-Renewed-1.png)
+- ![ColorfulRenewed](./docs/assets/Colorful-Renewed-2.png)
 - *Caption: The colorful shaders have been renewed with improved quality shaders, lighting calculation. Performance has been made better.*
 
-- ![MysticalRenewed](./SS/Mystical-Renewed-1.png)
-- ![MysticalRenewed](./SS/Mystical-Renewed-2.png)
+- ![MysticalRenewed](./docs/assets/Mystical-Renewed-1.png)
+- ![MysticalRenewed](./docs/assets/Mystical-Renewed-2.png)
 - *Caption: The mystical shaders have been renewed with improved quality lighting and better shader performances.*
 
-- ![MultiplayerEvent](./SS/MultiplayerEvent.png)
+- ![MultiplayerEvent](./docs/assets/MultiplayerEvent.png)
 - *Caption : At the multiplayer scene, the event spawn rates depend on the time of the day; the shield item is to be spawned by the server. *
 - *Caption : If the shield is not taken by any player, it will be destoryed itself within 10 seconds.*
 - *Caption : The protected duration of the shield is setted 7 seconds at the multiplayer.*
@@ -219,7 +219,7 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 
 - *Caption : Rest of the these day times , the shield spawn rates is to be settled as %20.*
 
-- ![MenuRenewed](./SS/MenuRenewed.png)
+- ![MenuRenewed](./docs/assets/MenuRenewed.png)
 - *Caption : The main menu has been renewed by using irregular lighting source that is to be static.It behaviour just like the candle light. It has the animation that distortion.*
 
 - **Shader Improvements**
@@ -230,10 +230,11 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 
 ### Developer Diaries - Rolora v2.0.1 (Coming Soon , Estimated in July)
 - **New Map : POISONED**
-- ![Poisoned](./SS/Poisoned.png)
-- ![Poisoned](./SS/Poisoned-2.png)
+- ![Poisoned](./docs/assets/Poisoned-1.png)
+- ![Poisoned](./docs/assets/Poisoned-2.png)
 - *Caption: The environment that is surrounded with toxic sea and biohazard obstacles and enemies is being designed for players. So new adventures are loading with renewed.*
 - *Caption: This new adventure is to challenge a hazardous environment and has a different atmosphere.*
+- *Caption: The cube is able to roll where is fitted as either even or odd number with the surface of the tile and bottom faces of the cube, which is matched the bottom face of the cube that is rolled as either even or odd with the tile.*
 
 ### Enjoy the Game
 ---
