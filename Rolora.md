@@ -100,7 +100,7 @@ The colorful cube must reach the evacuation point by rolling onto tiles that mat
 ## Assets Screenshots and Captions
 
 - **Main Menu**  
-  ![Main Menu](./SS/MainMenu.png)  
+  ![Main Menu](./SS/MenuRenewed.png)  
   *Caption: Main menu with Play, Settings, Profile, and Store entries. The players will start to game in here after lauched app. But if the tutorial already had passed , they must would have been continued by clicking the button of continuous by progressing in the store. Otherwise the recorded game is reseted.**
 
 - **Settings**  
@@ -142,11 +142,14 @@ The colorful cube must reach the evacuation point by rolling onto tiles that mat
 - *Caption: Choose a map and stage to continue progress or start a new run.*
 
 - **Profile Colorful**  
-  ![Profile Colorful](./SS/ColorfulProfile.png)  			
+  ![Profile Colorful1](./SS/Colorful-Profile-1.png)  			
+  ![Profile Colorful2](./SS/Colorful-Profile-2.png)  			
   ![Colorful_Flag_Selection](./SS/Colorful_Flag_Selection.png)
-  ![Profile Ancient](./SS/AncientProfile.png) 		
+  ![Profile Ancient1](./SS/Ancient-Profile-1.png)
+  ![Profile Ancient2](./SS/Ancient-Profile-2.png)
   ![Ancient_Flag_Selection](./SS/Ancient_Flag_Selection.png)
-  ![Profile Mystical](./SS/MysticalProfile.png)
+  ![Profile Mystical1](./SS/Mystical-Profile-1.png)
+  ![Profile Mystical2](./SS/Mystical-Profile-2.png)
   ![Mystical_Flag_Selection](./SS/Mystical_Flag_Selection.png)
   *Caption: Material,frame,flag preview with stat modifiers.*
 
@@ -155,25 +158,21 @@ The colorful cube must reach the evacuation point by rolling onto tiles that mat
   *Caption: Purchase cosmetics and view owned items before starting a stage.*
 
 - **Map Colorful**        
-  ![Colorful-1](./SS/Colorful-1.png)  
-  ![Colorful-2](./SS/Colorful-2.png) 
+  ![Colorful-1](./SS/Colorful-Renewed-1.png)  
+  ![Colorful-2](./SS/Colorful-Renewed-2.png) 
+  ![Colorful-2](./SS/Colorful-Renewed-3.png)  
   *Caption: The Colorful map introduces four stages, each beginning with a guide that explains the objectives. Players can skip the guide using the forward button if they prefer. Across the stages, three dynamic weather conditions appear — sunny with floating dust particles, rainy, and snowy — adding variety and atmosphere to the gameplay.*
 
 - **Map Ancient**        
-  ![Ancient](./SS/Ancient-1.png)  
-  ![Ancient](./SS/Ancient_Obstacles.png)
-  ![Ancient](./SS/Ancient_Cannon.png)
-  ![Ancient](./SS/Ancient_Activate_Event.png)
-  ![Ancient](./SS/Ancient_Shield_Clue.png) 
-  ![Ancient](./SS/Ancient_Turret.png) 
+  ![Ancient](./SS/AncientRenewed-1.png)  
+  ![Ancient](./SS/AncientRenewed-2.png)  
+  ![Ancient](./SS/AncientRenewed-3.png)  
   *Caption: The Ancient map unlocks after completing Colorful and surrounds players with a dangerous lava sea. It is longer and more complex than Colorful, requiring activation of rotary bridges and collection of keys to progress. Obstacles are more challenging, and emerald loot appears with a higher probability, rewarding careful exploration.*
 
 - **Map Mystical**        
-  ![Mystical](./SS/Mystical_1.png)
-  ![Mystical](./SS/Mystical_2.png)
-  ![Mystical](./SS/Mystical_3.png)
-  ![Mystical](./SS/Mystical_Activator.png)
-  ![Mystical](./SS/Mystical_Dwarf.png) 
+  ![Mystical](Mystical-Renewed-1.png)
+  ![Mystical](Mystical-Renewed-2.png)
+  ![Mystical](Mystical-Renewed-3.png)	 
   *Caption: The Mystical map is the final stage of the game, offering a magical atmosphere that feels lighter in complexity than Ancient but more demanding in endurance. Its enchanting visuals and ambience create surprises throughout, while the last stage introduces a formidable dwarf enemy that players must watch out for.*
 
 - **Localization Support**
@@ -190,28 +189,9 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 - **Performans & Optimization**
 *Caption: The game has been optimized for devices using the Mali‑G52 GPU, achieving a minimum of 60 FPS under normal conditions. Exceptions may occur during extended play sessions or when thermal levels rise.With V1.0.3 , Improved shaders and applied some optimisations.*
 
-### Developer Diaries – Rolora v1.0.4 (What’s New)
-- **Skyfold**
-![Skyfold](./SS/Skyfold.png)
-- *Caption: The flag, which is named 'Skyfold,' allows the use of revival items that are purchased in the store as well as winning double loot from all. If the users have this flag and revival item, they can revive again from game over.*
-- ![Revial](./SS/Revival.png)
-![RevivalItem](./SS/RevivalItem.png)
-- *Caption: The revival item can be used if the player has the 'Skyfold' flag. The item is able to be purchased in the store, but if the player does not have that flag, he/she cannot use it.*
-![RevivalCard](./SS/RevivalCard.png)
-- *Caption: The revival item can be gathered from the rewards card after victory in the multiplayer challenge, of course, if you are lucky ...*
-
-- **Shader Visual Improvements**
-- *Caption : For colorful maps, some shaders have been improved to get better quality visuals.*
-- *Caption : Some shaders have been optimized to get better performance without losing visual quality.*
-
-- **VFX For Rewards**
-- *Caption : At the multiplayer scene: The reward cards that are gathered randomly from reward chests have been equipped with VFX & shader effects.*
-
-- **Code Refactor**
-- *Caption : The codebase is improved. To be potential bugs, failures that might arise are fixed.* 
 
 ### Developer Diaries - Rolora v2.0.0 (Coming Soon, Estimated At The Beginning Of The 4th Week Of June)
-- ![AncientRenewed](./SS/AncientRenewed.png)
+- ![AncientRenewed](./SS/AncientRenewed-1.png)
 - ![AncientRenewd](./SS/AncientRenewed-2.png)
 - *Caption: The ancient shaders have been renewed with improved quality shaders, lighting calculation, and light types. Performance has been made better.*
 
@@ -250,8 +230,8 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 
 ### Developer Diaries - Rolora v2.0.1 (Coming Soon , Estimated in July)
 - **New Map : POISONED**
-![Poisoned](./SS/Poisoned.png)
-![Poisoned](./SS/Poisoned-2.png)
+- ![Poisoned](./SS/Poisoned.png)
+- ![Poisoned](./SS/Poisoned-2.png)
 - *Caption: The environment that is surrounded with toxic sea and biohazard obstacles and enemies is being designed for players. So new adventures are loading with renewed.*
 - *Caption: This new adventure is to challenge a hazardous environment and has a different atmosphere.*
 
