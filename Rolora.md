@@ -1,4 +1,4 @@
-﻿# ROLORA - Version 1.0.4 (Live)
+﻿# ROLORA - Version 2.0.0 (Last Week Of The June 2026)
 
 # Overview
 
@@ -170,9 +170,9 @@ The colorful cube must reach the evacuation point by rolling onto tiles that mat
   *Caption: The Ancient map unlocks after completing Colorful and surrounds players with a dangerous lava sea. It is longer and more complex than Colorful, requiring activation of rotary bridges and collection of keys to progress. Obstacles are more challenging, and emerald loot appears with a higher probability, rewarding careful exploration.*
 
 - **Map Mystical**        
-  ![Mystical](Mystical-Renewed-1.png)
-  ![Mystical](Mystical-Renewed-2.png)
-  ![Mystical](Mystical-Renewed-3.png)	 
+  ![Mystical](./SS/Mystical-Renewed-1.png)
+  ![Mystical](./SS/Mystical-Renewed-2.png)
+  ![Mystical](./SS/Mystical-Renewed-3.png)	 
   *Caption: The Mystical map is the final stage of the game, offering a magical atmosphere that feels lighter in complexity than Ancient but more demanding in endurance. Its enchanting visuals and ambience create surprises throughout, while the last stage introduces a formidable dwarf enemy that players must watch out for.*
 
 - **Localization Support**
