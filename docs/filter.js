@@ -1,5 +1,5 @@
 (function() {
-    const bypassForMe = true; // Test ederken true yapabilirsin
+    const bypassForMe = false; // Test ederken true yapabilirsin
 
     if (bypassForMe) {
         console.log("Geliştirici modu aktif: Engelleme pas geçildi.");
