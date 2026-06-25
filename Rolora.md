@@ -1,4 +1,4 @@
-﻿# ROLORA - Version 2.0.0 (Last Week Of The June 2026)
+﻿# ROLORA - Version 2.0.0 (Is Live)
 
 # Overview
 
@@ -133,7 +133,7 @@ The colorful cube must reach the evacuation point by rolling onto tiles that mat
   *Caption: In multiplayer mode, rolling your cube onto a non‑matching tile deducts points from your total score. Final scores are calculated from these totals, which directly determine the rewards earned. Higher scores unlock better reward cards, giving players access to valuable items and bonuses.*
 
 - **In Game**
-  ![Multiplayer](./docs/assets/Multiplayer_Scene.png)  
+  ![Multiplayer](./docs/assets/MultiplayerEvent.png)  
   *Caption: In multiplayer mode, players can view detailed statistics for each participant. A dedicated button above the map provides quick access to these stats, allowing both competitors to track performance, compare progress, and review results during or after a match.*
 
 - **Map Selection**  
@@ -190,7 +190,7 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 *Caption: The game has been optimized for devices using the Mali‑G52 GPU, achieving a minimum of 60 FPS under normal conditions. Exceptions may occur during extended play sessions or when thermal levels rise.With V1.0.3 , Improved shaders and applied some optimisations.*
 
 
-### Developer Diaries - Rolora v2.0.0 (Coming Soon, Estimated At The Beginning Of The 4th Week Of June)
+### Developer Diaries - Rolora v2.0.0 (What's new v2.0.0)
 - ![AncientRenewed](./docs/assets/AncientRenewed-1.png)
 - ![AncientRenewd](./docs/assets/AncientRenewed-2.png)
 - *Caption: The ancient shaders have been renewed with improved quality shaders, lighting calculation, and light types. Performance has been made better.*
