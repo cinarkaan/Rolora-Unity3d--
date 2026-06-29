@@ -236,5 +236,10 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 - *Caption: This new adventure is to challenge a hazardous environment and has a different atmosphere.*
 - *Caption: The cube is able to roll where is fitted as either even or odd number with the surface of the tile and bottom faces of the cube, which is matched the bottom face of the cube that is rolled as either even or odd with the tile.*
 
+- **RENEWED UI**
+- ![UIRenewed-C.png](./docs/assets/UIRenewed-C.png)
+- ![UIRenewed-A.png](./docs/assets/UIRenewed-A.png)
+- ![UIRenewed-A.png](./docs/assets/UIRenewed-M.png)
+- *Caption: The all buttons has been renewed by inspired platinium desing. The colors of button are arranged by the map.*
 ### Enjoy the Game
 ---
