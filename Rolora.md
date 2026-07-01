@@ -237,9 +237,10 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 - *Caption: The cube is able to roll where is fitted as either even or odd number with the surface of the tile and bottom faces of the cube, which is matched the bottom face of the cube that is rolled as either even or odd with the tile.*
 
 - **RENEWED UI**
-- ![UIRenewed-C.png](./docs/assets/UIRenewed-C.png)
-- ![UIRenewed-A.png](./docs/assets/UIRenewed-A.png)
-- ![UIRenewed-A.png](./docs/assets/UIRenewed-M.png)
+- ![UIRenewed-C](./docs/assets/UIRenewed-C.png)
+- ![CSTUIR](./docs/assets/CSTUIR.png)
+- ![UIRenewed-A](./docs/assets/UIRenewed-A.png)
+- ![UIRenewed-A](./docs/assets/UIRenewed-M.png)
 - *Caption: The all buttons has been renewed by inspired platinium desing. The colors of button are arranged by the map.*
 ### Enjoy the Game
 ---
