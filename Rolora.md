@@ -190,7 +190,7 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 *Caption: The game has been optimized for devices using the Mali‑G52 GPU, achieving a minimum of 60 FPS under normal conditions. Exceptions may occur during extended play sessions or when thermal levels rise.With V1.0.3 , Improved shaders and applied some optimisations.*
 
 
-### Developer Diaries - Rolora v2.0.0 (What's new v2.0.0)
+### Developer Diaries - Rolora v2.0.1 (What's new v2.0.1)
 - ![AncientRenewed](./docs/assets/AncientRenewed-1.png)
 - ![AncientRenewd](./docs/assets/AncientRenewed-2.png)
 - *Caption: The ancient shaders have been renewed with improved quality shaders, lighting calculation, and light types. Performance has been made better.*
@@ -228,19 +228,13 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 - *Caption: GPU optimizations: Better FPS For the devices support a higher refresh rate than 60 Hz.*
 - *Caption: Code Refactor.*
 
-### Developer Diaries - Rolora v2.0.1 (Coming Soon , Estimated in July)
-- **New Map : POISONED**
+### Developer Diaries - Rolora v2.0.2 (Coming Soon)
+- **NEW MAP - POISONED**
 - ![Poisoned](./docs/assets/Poisoned-1.png)
 - ![Poisoned](./docs/assets/Poisoned-2.png)
 - *Caption: The environment that is surrounded with toxic sea and biohazard obstacles and enemies is being designed for players. So new adventures are loading with renewed.*
 - *Caption: This new adventure is to challenge a hazardous environment and has a different atmosphere.*
 - *Caption: The cube is able to roll where is fitted as either even or odd number with the surface of the tile and bottom faces of the cube, which is matched the bottom face of the cube that is rolled as either even or odd with the tile.*
 
-- **RENEWED UI**
-- ![UIRenewed-C](./docs/assets/UIRenewed-C.png)
-- ![CSTUIR](./docs/assets/CSTUIR.png)
-- ![UIRenewed-A](./docs/assets/UIRenewed-A.png)
-- ![UIRenewed-A](./docs/assets/UIRenewed-M.png)
-- *Caption: The all buttons has been renewed by inspired platinium desing. The colors of button are arranged by the map.*
 ### Enjoy the Game
 ---
