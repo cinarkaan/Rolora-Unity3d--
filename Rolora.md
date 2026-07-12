@@ -1,4 +1,4 @@
-﻿# ROLORA - Version 2.0.0 (Is Live)
+﻿# ROLORA - Version 2.0.1 (Is Live)
 
 # Overview
 
@@ -24,7 +24,7 @@ The project is a solo commercial game in active development for Android with iOS
 ## Gameplay
 
 ## 🎮 Rolora Gameplay Teaser
-[![Rolora Gameplay Teaser](https://img.youtube.com/vi/DsVwCFv9vMI/maxresdefault.jpg)](https://youtu.be/DsVwCFv9vMI)
+[![Rolora Gameplay Teaser](https://img.youtube.com/vi/pSHDIfAfi90/maxresdefault.jpg)](https://youtu.be/pSHDIfAfi90)
 
 ## Google Play Link
 [![Get it on Google Play](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=com.glorywindgames.rolora)
