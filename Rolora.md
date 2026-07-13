@@ -1,4 +1,4 @@
-﻿# ROLORA - Version 2.0.1 (Is Live)
+﻿# ROLORA - Version 2.0.2 (Is Live)
 
 # Overview
 
@@ -24,7 +24,7 @@ The project is a solo commercial game in active development for Android with iOS
 ## Gameplay
 
 ## 🎮 Rolora Gameplay Teaser
-[![Rolora Gameplay Teaser](https://img.youtube.com/vi/pSHDIfAfi90/maxresdefault.jpg)](https://youtu.be/pSHDIfAfi90)
+[![Rolora Gameplay Teaser](https://img.youtube.com/vi/601w5neWXB0/maxresdefault.jpg)](https://youtu.be/601w5neWXB0)
 
 ## Google Play Link
 [![Get it on Google Play](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=com.glorywindgames.rolora)
@@ -228,7 +228,7 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 - *Caption: GPU optimizations: Better FPS For the devices support a higher refresh rate than 60 Hz.*
 - *Caption: Code Refactor.*
 
-### Developer Diaries - Rolora v2.0.2 (Coming Soon)
+### Developer Diaries - Rolora v2.0.3 (Coming Soon)
 - **NEW MAP - POISONED**
 - ![Poisoned](./docs/assets/Poisoned-1.png)
 - ![Poisoned](./docs/assets/Poisoned-2.png)
