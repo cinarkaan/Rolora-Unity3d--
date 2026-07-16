@@ -6,20 +6,58 @@
 Each face of the cube must match the tile beneath it; stages grow longer and more challenging as you progress. 
 The project is a solo commercial game in active development for Android with iOS planned next.
 
+- **Dynamic Tiles**
+*Caption: Dynamic tiles appear across all three maps, changing their properties — such as color and texture — every three seconds based on shader settings. These tiles alternate between dummy and original states, adding unpredictability to the gameplay. Their presence depends on the selected difficulty level, making higher difficulties more challenging and varied.*
+
+### 🌟 Map & Stage Star Rating Thresholds
+
+Players are awarded stars based on their completion time, relative to the thresholds defined for each map and stage.
+
+#### Rating Rules:
+* **3 Stars** 🌟🌟🌟 : Passed Time is less than or equal to Min Time
+* **2 Stars** 🌟🌟 : Passed Time is less than or equal to Average Time
+* **1 Star** 🌟 : Passed Time is less than or equal to Max Time
+
+| Map | Stage | Min Time (s) | Average Time (s) | Max Time (s) |
+| :--- | :---: | :---: | :---: | :---: |
+| **Colorful** | 1 | 30s | 40s | 50s |
+| | 2 | 40s | 60s | 70s |
+| | 3 | 70s | 90s | 110s |
+| | 4 | 140s | 160s | 180s |
+| **Ancient** | 1 | 90s | 120s | 150s |
+| | 2 | 175s | 215s | 245s |
+| | 3 | 250s | 280s | 310s |
+| | 4 | 300s | 330s | 360s |
+| **Mystical** | 1 | 25s | 35s | 45s |
+| | 2 | 80s | 95s | 105s |
+| | 3 | 170s | 185s | 200s |
+
 ---
 
-## Key Features
+### Event Hours For Multiplayer
+| Start-Time | End-Time | Spawn-Possibility | Status
+| :---: | :---: | :---: | :--- |
+| 09:00 AM | 07:00 PM | **55%** | Medium Chance 
+| 08:00 PM | 00:00 AM | **90%** | High Chance 
+| 00:00 AM | 09:00 AM | **20%** | Low Chance
+| 19:00 PM | 20:00 PM | **20%** | Low Chance
 
-- **Game Modes**: Single player (3 maps × 4 stages = 12 stages) and local multiplayer (LAN).
-- **Core Mechanic**: Color‑matching cube — the cube’s bottom face must match the tile you roll onto.
-- **Procedural Levels**: DFS‑based generation with seed support for reproducible runs.
-- **AI**: Enemies use A* pathfinding with dynamic replanning.
-- **Networking**: UDP‑based LAN multiplayer with lightweight reliability for critical messages.
-- **Engine and Rendering**: Unity, C#, URP (SRP), custom HLSL shaders; Vulkan 1.0+ and OpenGL ES 3.2+ backends.
-- **Localization**: Native support for English, French, German, Spanish.
-- **Performance Target**: Optimized for Mali‑G52 devices with a measured baseline of 60 FPS under normal conditions.
+- *Caption : At the multiplayer scene, the event spawn rates depend on the time of the day; the shield item is to be spawned by the server.*
+- *Caption : If the shield is not taken by any player, it will be destoryed itself within 10 seconds.*
+- *Caption : The protected duration of the shield is setted 7 seconds at the multiplayer.*
+- *Caption : The perfections that get from frames are not validated in the multiplayer, except from the "DarkIvy" frame, which is protected against the dwarf at the mystical map.*
+- *Caption : Rest of the these day times , the shield spawn rates is to be settled as %20.*
+
+# How To Play
+
+### Android
+As you can see, the movement buttons are placed on both the left and right sides of the screen. You can control movement and interact with UI elements by pressing these buttons.  
+To change the point of view, simply slide your finger slightly from left to right or right to left. This allows you to rotate the camera and see the cube from different angles.
 
 ---
+
+### Purpose
+The colorful cube must reach the evacuation point by rolling onto tiles that match its bottom face color. Each new stage introduces longer platforms and more difficult obstacles, increasing the challenge as you progress.
 
 ## Gameplay
 
@@ -42,17 +80,27 @@ Roll the cube to the evacuation point. Each time the cube rolls, the face that b
 - **Dynamic Tiles**: Tiles toggle between original and dummy states every 3 seconds; difficulty controls their presence and ratio.  
 - **Customization**: Frames and materials provide gameplay modifiers (for example **+20% shield duration**, **+5% roll speed**). Preview materials in the Profile screen.
 
----
-
-## License
-
 **License**  
 This project is **not open source**. All rights reserved. Repository content is provided for viewing only. 
 Unauthorized use, reproduction, or distribution is prohibited. For licensing inquiries or partnership requests, contact the developer.
 
-
 **Developer**: **Kaan Çınar**  
 **Project Status**: In development & Published On Google Play — Android priority, iOS planned.  
+
+---
+
+## Key Features
+
+- **Game Modes**: Single player (3 maps × 4 stages = 12 stages) and local multiplayer (LAN).
+- **Core Mechanic**: Color‑matching cube — the cube’s bottom face must match the tile you roll onto.
+- **Procedural Levels**: DFS‑based generation with seed support for reproducible runs.
+- **AI**: Enemies use A* pathfinding with dynamic replanning.
+- **Networking**: UDP‑based LAN multiplayer with lightweight reliability for critical messages.
+- **Engine and Rendering**: Unity, C#, URP (SRP), custom HLSL shaders; Vulkan 1.0+ and OpenGL ES 3.2+ backends.
+- **Localization**: Native support for English, French, German, Spanish.
+- **Performance Target**: Optimized for Mali‑G52 devices with a measured baseline of 60 FPS under normal conditions.
+
+---
 
 ## Technical Details and Performance
 
@@ -84,20 +132,7 @@ In Rolora, platform instantiation is implemented using the **Abstract Factory (c
 
 ---
 
-# How To Play
-
-### Android
-As you can see, the movement buttons are placed on both the left and right sides of the screen. You can control movement and interact with UI elements by pressing these buttons.  
-To change the point of view, simply slide your finger slightly from left to right or right to left. This allows you to rotate the camera and see the cube from different angles.
-
----
-
-### Purpose
-The colorful cube must reach the evacuation point by rolling onto tiles that match its bottom face color. Each new stage introduces longer platforms and more difficult obstacles, increasing the challenge as you progress.
-
----
-
-## Assets Screenshots and Captions
+### Assets Screenshots and Captions
 
 - **Main Menu**  
   ![Main Menu](./docs/assets/MenuRenewed.png)  
@@ -183,50 +218,18 @@ German ![Germany Flag](https://flagcdn.com/w20/de.png),
 Spanish ![Spain Flag](https://flagcdn.com/w20/es.png).  
 Additional languages are planned after launch, ensuring wider accessibility and a seamless experience for players worldwide.*
 
-- **Dynamic Tiles**
-*Caption: Dynamic tiles appear across all three maps, changing their properties — such as color and texture — every three seconds based on shader settings. These tiles alternate between dummy and original states, adding unpredictability to the gameplay. Their presence depends on the selected difficulty level, making higher difficulties more challenging and varied.*
-
 - **Performans & Optimization**
-*Caption: The game has been optimized for devices using the Mali‑G52 GPU, achieving a minimum of 60 FPS under normal conditions. Exceptions may occur during extended play sessions or when thermal levels rise.With V1.0.3 , Improved shaders and applied some optimisations.*
+*Caption: The game has been optimized for devices using the Mali‑G52 GPU, achieving a minimum of 60 FPS under normal conditions. Exceptions may occur during extended play sessions or when thermal levels rise.*
 
+---
 
-### Developer Diaries - Rolora v2.0.1 (What's new v2.0.1)
-- ![AncientRenewed](./docs/assets/AncientRenewed-1.png)
-- ![AncientRenewd](./docs/assets/AncientRenewed-2.png)
-- *Caption: The ancient shaders have been renewed with improved quality shaders, lighting calculation, and light types. Performance has been made better.*
+### Developer Diaries - Rolora v2.0.2 (What's new v2.0.2)
+- *Caption: Code refactoring and bug fixes.*
 
-- ![ColorfulRenewed](./docs/assets/Colorful-Renewed-1.png)
-- ![ColorfulRenewed](./docs/assets/Colorful-Renewed-2.png)
-- *Caption: The colorful shaders have been renewed with improved quality shaders, lighting calculation. Performance has been made better.*
-
-- ![MysticalRenewed](./docs/assets/Mystical-Renewed-1.png)
-- ![MysticalRenewed](./docs/assets/Mystical-Renewed-2.png)
-- *Caption: The mystical shaders have been renewed with improved quality lighting and better shader performances.*
-
-- ![MultiplayerEvent](./docs/assets/MultiplayerEvent.png)
-- *Caption : At the multiplayer scene, the event spawn rates depend on the time of the day; the shield item is to be spawned by the server. *
-- *Caption : If the shield is not taken by any player, it will be destoryed itself within 10 seconds.*
-- *Caption : The protected duration of the shield is setted 7 seconds at the multiplayer.*
-- *Caption : The perfections that get from frames are not validated in the multiplayer, except from the "DarkIvy" frame, which is protected against the dwarf at the mystical map.*
-
-### Event Hours For Multiplayer
-| Start-Time | End-Time | Spawn-Possibility | Status
-| :---: | :---: | :---: | :--- |
-| 09:00 AM | 07:00 PM | **55%** | Medium Chance 
-| 08:00 PM | 00:00 AM | **90%** | High Chance 
-| 00:00 AM | 09:00 AM | **20%** | Low Chance
-| 19:00 PM | 20:00 PM | **20%** | Low Chance
-
-- *Caption : Rest of the these day times , the shield spawn rates is to be settled as %20.*
-
-- ![MenuRenewed](./docs/assets/MenuRenewed.png)
-- *Caption : The main menu has been renewed by using irregular lighting source that is to be static.It behaviour just like the candle light. It has the animation that distortion.*
-
-- **Shader Improvements**
-- *Caption: The lighting calculation model is changed.*
-- *Caption: Visual Improvements.*
+- **Shader & VFX Improvements**
+- *Caption: Visual Improvements. The particle systems has been updated and renewed*
 - *Caption: GPU optimizations: Better FPS For the devices support a higher refresh rate than 60 Hz.*
-- *Caption: Code Refactor.*
+---
 
 ### Developer Diaries - Rolora v2.0.3 (Coming Soon)
 - **NEW MAP - POISONED**

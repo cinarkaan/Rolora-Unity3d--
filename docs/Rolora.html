@@ -204,7 +204,6 @@
 <body>
 
 <div class="container">
-
     <header>
         <h1>ROLORA</h1>
         <span class="version-badge">Version 2.0.2 (Is Live)</span>
@@ -214,25 +213,151 @@
         <h2>Overview</h2>
         <p><strong>Rolora</strong> is a mobile action‑puzzle adventure where you roll the either color or texture ‑ sided cube across procedurally generated platforms to reach an evacuation point.</p>
         <p>Each face of the cube must match the tile beneath it; stages grow longer and more challenging as you progress. The project is a solo commercial game in active development for Android with iOS planned next.</p>
+    
+        <h2>Map & Stage Star Rating Thresholds</h2>
+        <p>Players are awarded stars based on their completion time, relative to the thresholds defined for each map and stage.</p>
+    
+        <h3>Rating Rules</h3>
+
+        <p>3 Stars 🌟🌟🌟 : Passed Time is less than or equal to Min Time</p>
+        <p>2 Stars 🌟🌟 : Passed Time is less than or equal to Average Time</p>
+        <p>1 Star  🌟 : Passed Time is less than or equal to Max Time</p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Map</th>
+              <th>Stage</th>
+              <th>Min Time (s)</th>
+              <th>Average Time (s)</th>
+              <th>Max Time (s)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Colorful Map -->
+            <tr>
+              <td rowspan="4"><b>Colorful</b></td>
+              <td>1</td>
+              <td>30s</td>
+              <td>40s</td>
+              <td>50s</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>40s</td>
+              <td>60s</td>
+              <td>70s</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>70s</td>
+              <td>90s</td>
+              <td>110s</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>140s</td>
+              <td>160s</td>
+              <td>180s</td>
+            </tr>
+            <!-- Ancient Map -->
+            <tr>
+              <td rowspan="4"><b>Ancient</b></td>
+              <td>1</td>
+              <td>90s</td>
+              <td>120s</td>
+              <td>150s</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>175s</td>
+              <td>215s</td>
+              <td>245s</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>250s</td>
+              <td>280s</td>
+              <td>310s</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>300s</td>
+              <td>330s</td>
+              <td>360s</td>
+            </tr>
+            <!-- Mystical Map -->
+            <tr>
+              <td rowspan="3"><b>Mystical</b></td>
+              <td>1</td>
+              <td>25s</td>
+              <td>35s</td>
+              <td>45s</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>80s</td>
+              <td>95s</td>
+              <td>105s</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>170s</td>
+              <td>185s</td>
+              <td>200s</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Event Hours - Shield Spawn Rates (Multiplayer)</h3>
+        <table>
+                <thead>
+                    <tr>
+                        <th>Start-Time</th>
+                        <th>End-Time</th>
+                        <th>Spawn-Possibility</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>09:00 AM</td>
+                        <td>07:00 PM</td>
+                        <td class="medium-chance">55%</td>
+                        <td>Medium Chance</td>
+                    </tr>
+                    <tr>
+                        <td>08:00 PM</td>
+                        <td>00:00 AM</td>
+                        <td class="high-chance">90%</td>
+                        <td>High Chance</td>
+                    </tr>
+                    <tr>
+                        <td>00:00 AM</td>
+                        <td>09:00 AM</td>
+                        <td class="low-chance">20%</td>
+                        <td>Low Chance</td>
+                    </tr>
+                    <tr>
+                        <td>07:00 PM</td>
+                        <td>08:00 PM</td>
+                        <td class="low-chance">20%</td>
+                        <td>Low Chance</td>
+                    </tr>
+                </tbody>
+        </table>    
+        <blockquote>
+            * Rest of these hours, the shield spawn rate settles at 20%. Shields destroy themselves within 10 seconds if untaken. Protection lasts 7 seconds.
+        </blockquote>
     </section>
 
-    <hr>
-
-    <section id="key-features">
-        <h2>Key Features</h2>
-        <ul>
-            <li><strong>Game Modes:</strong> Single player (3 maps × 4 stages = 12 stages) and local multiplayer (LAN).</li>
-            <li><strong>Core Mechanic:</strong> Color‑matching cube — the cube’s bottom face must match the tile you roll onto.</li>
-            <li><strong>Procedural Levels:</strong> DFS‑based generation with seed support for reproducible runs.</li>
-            <li><strong>AI:</strong> Enemies use A* pathfinding with dynamic replanning.</li>
-            <li><strong>Networking:</strong> UDP‑based LAN multiplayer with lightweight reliability for critical messages.</li>
-            <li><strong>Engine and Rendering:</strong> Unity, C#, URP (SRP), custom HLSL shaders; Vulkan 1.0+ and OpenGL ES 3.2+ backends.</li>
-            <li><strong>Localization:</strong> Native support for English, French, German, Spanish.</li>
-            <li><strong>Performance Target:</strong> Optimized for Mali‑G52 devices with a measured baseline of 60 FPS under normal conditions.</li>
-        </ul>
+    <section id="how-to-play">
+        <h2>How To Play</h2>
+        <h3>Android</h3>
+        <p>The movement buttons are placed on both the left and right sides of the screen. You can control movement and interact with UI elements by pressing these buttons. To change the point of view, simply slide your finger slightly from left to right or right to left.</p>
+        <h3>Purpose</h3>
+        <p>The colorful cube must reach the evacuation point by rolling onto tiles that match its bottom face color. Each new stage introduces longer platforms and more difficult obstacles.</p>
     </section>
-
-    <hr>
 
     <section id="gameplay">
         <h2>Gameplay</h2>
@@ -262,14 +387,26 @@
                 <h3>Progression</h3>
                 <ul>
                     <li><strong>Maps:</strong> Colorful, Ancient, Mystical — each map contains four stages.</li>
-                    <li><strong>Dynamic Tiles:</strong> Tiles toggle between original and dummy states every 3 seconds.</li>
+                    <li><strong>Dynamic Tiles:</strong> Alternates states every 3 seconds based on custom shader settings.Tiles toggle between original and dummy states every 3 seconds.</li>
                     <li><strong>Customization:</strong> Frames and materials provide modifiers (e.g., <strong>+20% shield duration</strong>).</li>
                 </ul>
             </div>
         </div>
     </section>
 
-    <hr>
+    <section id="key-features">
+        <h2>Key Features</h2>
+        <ul>
+            <li><strong>Game Modes:</strong> Single player (3 maps × 4 stages = 12 stages) and local multiplayer (LAN).</li>
+            <li><strong>Core Mechanic:</strong> Color‑matching cube — the cube’s bottom face must match the tile you roll onto.</li>
+            <li><strong>Procedural Levels:</strong> DFS‑based generation with seed support for reproducible runs.</li>
+            <li><strong>AI:</strong> Enemies use A* pathfinding with dynamic replanning.</li>
+            <li><strong>Networking:</strong> UDP‑based LAN multiplayer with lightweight reliability for critical messages.</li>
+            <li><strong>Engine and Rendering:</strong> Unity, C#, URP (SRP), custom HLSL shaders; Vulkan 1.0+ and OpenGL ES 3.2+ backends.</li>
+            <li><strong>Localization:</strong> Native support for English, French, German, Spanish.</li>
+            <li><strong>Performance Target:</strong> Optimized for Mali‑G52 devices with a measured baseline of 60 FPS under normal conditions.</li>
+        </ul>
+    </section>
 
     <section id="technical-details">
         <h2>Technical Details and Performance</h2>
@@ -288,21 +425,8 @@
         </ul>
     </section>
 
-    <hr>
-
-    <section id="how-to-play">
-        <h2>How To Play</h2>
-        <h3>Android</h3>
-        <p>The movement buttons are placed on both the left and right sides of the screen. You can control movement and interact with UI elements by pressing these buttons. To change the point of view, simply slide your finger slightly from left to right or right to left.</p>
-        <h3>Purpose</h3>
-        <p>The colorful cube must reach the evacuation point by rolling onto tiles that match its bottom face color. Each new stage introduces longer platforms and more difficult obstacles.</p>
-    </section>
-
-    <hr>
-
     <section id="screenshots">
         <h2>Assets Screenshots and Captions</h2>
-
         <div class="screenshot-group">
             <h3>Main Menu & Settings</h3>
             <div class="screenshot-gallery">
@@ -390,69 +514,24 @@
                 <img src="https://flagcdn.com/w20/de.png" alt="DE"> German, 
                 <img src="https://flagcdn.com/w20/es.png" alt="ES"> Spanish.
             </p>
-            <p><strong>Dynamic Tiles:</strong> Alternates states every 3 seconds based on custom shader settings.</p>
             <p><strong>Optimization:</strong> Solid 60 FPS target on Mali-G52 GPUs.</p>
         </div>
     </section>
 
-    <hr>
-
-    <hr>
-
     <section id="dev-diaries-v202">
         <h2>Developer Diaries - Rolora v2.0.2 (What's New v2.0.2)</h2>
-        <div class="screenshot-gallery">
-            <img src="assets/AncientRenewed-1.png" alt="Ancient Renewed">
-            <img src="assets/Colorful-Renewed-1.png" alt="Colorful Renewed">
-            <img src="assets/Mystical-Renewed-1.png" alt="Mystical Renewed">
-            <img src="assets/MenuRenewed.png" alt="Menu Renewed">
-            <img src="assets/MultiplayerEvent.png" alt="Multiplayer Event">
-        </div>
-        <div class="caption">Renewed lighting calculations, improved shader performance, improved visuals,and dynamic multiplayer events.</div>
-
-        <h3>Event Hours - Shield Spawn Rates (Multiplayer)</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>Start-Time</th>
-                    <th>End-Time</th>
-                    <th>Spawn-Possibility</th>
-                    <th>Status</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>09:00 AM</td>
-                    <td>07:00 PM</td>
-                    <td class="medium-chance">55%</td>
-                    <td>Medium Chance</td>
-                </tr>
-                <tr>
-                    <td>08:00 PM</td>
-                    <td>00:00 AM</td>
-                    <td class="high-chance">90%</td>
-                    <td>High Chance</td>
-                </tr>
-                <tr>
-                    <td>00:00 AM</td>
-                    <td>09:00 AM</td>
-                    <td class="low-chance">20%</td>
-                    <td>Low Chance</td>
-                </tr>
-                <tr>
-                    <td>07:00 PM</td>
-                    <td>08:00 PM</td>
-                    <td class="low-chance">20%</td>
-                    <td>Low Chance</td>
-                </tr>
-            </tbody>
-        </table>
-        <blockquote>
-            * Rest of these hours, the shield spawn rate settles at 20%. Shields destroy themselves within 10 seconds if untaken. Protection lasts 7 seconds.
-        </blockquote>
+        <div class="caption">
+        
+            <h3>Gameplay</h3>
+                <p>Code refactoring and bug fixes</p>
+            <h3>Shader & VFX Improvements</h3>
+            <ul>
+                <li><p>Visual Improvements. The particle systems has been updated and renewed</p></li>    
+                <li><p>GPU optimizations: Better FPS For the devices support a higher refresh rate than 60 Hz.</p></li>    
+                <li><p></p></li>    
+            </ul>
+        </div>    
     </section>
-
-    <hr>
 
     <section id="dev-diaries-v203">
         <h2>Developer Diaries - Rolora v2.0.3 (Coming Soon)</h2>
@@ -465,8 +544,6 @@
         The cube is able to roll where is fitted as either even or odd number with the surface of the tile and bottom faces of the cube, 
         which is matched the bottom face of the cube that is rolled as either even or odd with the tile.</div>
     </section>
-
-    <hr>
 
     <footer style="text-align: center; margin-top: 50px;">
         <h2>Enjoy the Game!</h2>
