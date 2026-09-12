@@ -1,5 +1,5 @@
 (function() {
-    const bypassForMe = false; // Test ederken true yapabilirsin
+    const bypassForMe = true; // Test ederken true yapabilirsin
 
     if (bypassForMe) {
         console.log("Geliştirici modu aktif: Engelleme pas geçildi.");
@@ -22,7 +22,7 @@
     // 1. ADIM: TIMEZONE KONTROLÜ
     const userTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
     if (blockedTimeZones.includes(userTimeZone)) {
-        blockAccess("REGIONAL_TIMEZONE");
+        blockAccess("REGIONAL");
         return;
     }
 

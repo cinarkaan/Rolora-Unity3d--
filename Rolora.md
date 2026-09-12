@@ -81,7 +81,7 @@ The colorful cube must reach the evacuation point by rolling onto tiles that mat
 ## Gameplay
 
 ## 🎮 Rolora Gameplay Teaser
-[![Rolora Gameplay Teaser](https://img.youtube.com/vi/LFZt4rVvXNk/maxresdefault.jpg)](https://youtu.be/LFZt4rVvXNk)
+[![Rolora Gameplay Teaser](https://img.youtube.com/vi/iTamVLXuFzQ/maxresdefault.jpg)](https://youtu.be/iTamVLXuFzQ)
 
 ## Google Play Link
 [![Get it on Google Play](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=com.glorywindgames.rolora)
@@ -242,13 +242,19 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 
 ---
 
-### Developer Diaries - Rolora v2.0.7 (What's new v2.0.7)
+### Developer Diaries - Currently - Rolora v2.0.7 (What's new v2.0.7)
 - *Caption: 🎨 Dynamic Visuals: Tile styles now change with your selected frame!*
-- *Caption: 🎮 GPGS & Cloud Save: Sign in to back up progress and unlock achievements!*
 - *Caption: 🛠️ Bug Fixes: Minor bugs resolved for better stability.*
-- *Caption: 🛒 In-App Purchases: New in-app purchase options added.*
-- *Caption: 🎓 Tutorial: Revamped onboarding experience.*
 - *Caption: ⚡ Performance: Shader and code optimizations for smoother gameplay.*
+- *Caption: 🎓 Tutorial: Revamped onboarding experience.*
+- *Caption: 🎮 GPGS & Cloud Save: Sign in to back up progress and unlock achievements!*
+- *Caption: 🛒 In-App Purchases: New in-app purchase options added.*
+
+### Developer Diaries - Next Update - Rolora v2.0.8 (What's new v2.0.8)
+- *Caption: 🎨 3D Models: Fences (FBX) have been remodeled with new additions.*
+- *Caption: 🛠️ Bug Fixes: Minor bugs resolved for better stability.*
+- *Caption: ⚡ Performance: Shader and code optimizations for smoother gameplay.*
+- *Caption: 🪤 New Content: Added a 'Mystical Trap' to obstacles for the Mystical Map. It dissolving and crystallization for each 3 seconds.*
 ---
 
 ### Developer Diaries - (Coming Soon)
