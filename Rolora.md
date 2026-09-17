@@ -1,4 +1,4 @@
-﻿# ROLORA - Version 2.0.7 (Is Live)
+﻿# ROLORA - Version 2.0.8 (Is Live)
 
 # Overview
 
