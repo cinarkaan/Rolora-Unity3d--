@@ -1,12 +1,12 @@
 (function() {
-    const bypassForMe = false; // Test ederken true yapabilirsin
+    const bypassForMe = false; // Constant can be setted as true , while testing 
 
     if (bypassForMe) {
-        console.log("Geliştirici modu aktif: Engelleme pas geçildi.");
+        console.log("Developer Mode Is Enabled: The Blocking has been passed !!!.");
         return;
     }
 
-    // ENGELLENEN SAAT DİLİMLERİ
+    // Blocked Time Zones 
     const blockedTimeZones = [
         'Europe/Istanbul', 'Asia/Istanbul',
         'Asia/Shanghai', 'Asia/Chongqing', 'Asia/Harbin', 'Asia/Urumqi',
@@ -15,18 +15,18 @@
         'Asia/Tehran'
     ];
 
-    // ENGELLENEN ÜLKE KODLARI VE İSİMLERİ
+    // Blocked Countries & Codes , Names
     const blockedCountryCodes = ['TR', 'CN', 'RU', 'KP', 'IR'];
     const blockedCountryNames = ['turkey', 'china', 'russia', 'russian federation', 'north korea', 'korea, democratic people', 'iran'];
 
-    // 1. ADIM: TIMEZONE KONTROLÜ
+    // 1. Step: TIMEZONE CHECK
     const userTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
     if (blockedTimeZones.includes(userTimeZone)) {
         blockAccess("REGIONAL");
         return;
     }
 
-    // 2. ADIM: LOKASYON KONTROLÜ
+    // 2. Step: Location Check
     fetch('https://ip-api.com/json/')
         .then(response => response.json())
         .then(data => {
@@ -43,16 +43,16 @@
         .catch(err => {
             blockAccess("SECURITY_CHECK_FAILED");
         });
-
-    // Sayfayı tamamen yok eden ve bilgilendirmeyi gösteren fonksiyon
+    
+    // The function that destroy the page and shows the information
     function blockAccess(reason) {
-        // Fonksiyon çağrıldığı an mevcut sayfa içeriğini temizlemek için bir fonksiyon tanımlıyoruz
-        const renderBlockPage = () => {
-            // Mevcut tüm body içeriğini sıfırla ve yeni HTML'i bas
+        // To clear current website content while calling the function
+         const renderBlockPage = () => {
+            // Reset all body content and then show new HTML content
             document.body.innerHTML = `
                 <div class="error-card">
                     <div class="icon">📍</div>
-                    <h1>403 | Content Unavailable</h1>
+                    <h1>403 | REGIONAL ERROR</h1>
                     <p>
                         Sorry, this website is currently under regional restrictions and is not accessible from your location.
                     </p>
@@ -60,7 +60,7 @@
                 </div>
             `;
 
-            // CSS stillerini <head> içine enjekte et
+            // Injecting CSS Styles inside of the HTML
             const style = document.createElement('style');
             style.innerHTML = `
                 * { box-sizing: border-box; }
