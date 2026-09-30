@@ -253,6 +253,7 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 - *Caption: 🪤 New Content: Added a 'Mystical Trap' to obstacles for the Mystical Map. It dissolving and crystallization for each 3 seconds.*
 
 ### Developer Diaries - Next Update - Rolora v2.0.9 (What's new v2.0.9)
+-[MysticalMeteor](./docs/assets/MysticalMeteor-3.png)
 - *Caption : ☄️ New Content: Introducing the 'Meteor Rain' obstacle to the Mystical Map. On hard difficulty, a meteor will strike near the cube shortly after a red warning circle fades.*
 ---
 
