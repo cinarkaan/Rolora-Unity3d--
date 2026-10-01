@@ -1,19 +1,19 @@
-﻿# ROLORA - Version 2.0.8 (Is Live)
+﻿# 🎮 ROLORA - Version 2.0.8 (Is Live)
 
-# Overview
+# 🔎 Overview
 
-**Rolora** is a mobile action‑puzzle adventure where you roll the either color or texture ‑ sided cube across procedurally generated platforms to reach an evacuation point. 
+**🎮 Rolora** is a mobile action‑puzzle adventure where you roll the either color or texture ‑ sided cube across procedurally generated platforms to reach an evacuation point. 
 Each face of the cube must match the tile beneath it; stages grow longer and more challenging as you progress. 
 The project is a solo commercial game in active development for Android with iOS planned next.
 
-- **Dynamic Tiles**
+- **⚡Dynamic Tiles**
 *Caption: Dynamic tiles appear across all three maps, changing their properties — such as color and texture — every three seconds based on shader settings. These tiles alternate between dummy and original states, adding unpredictability to the gameplay. Their presence depends on the selected difficulty level, making higher difficulties more challenging and varied.*
 
-### 🌟 Map & Stage Star Rating Thresholds
+### 🚧 Map & Stage Star Rating Thresholds
 
 Players are awarded stars based on their completion time, relative to the thresholds defined for each map and stage.
 
-#### Rating Rules:
+#### 📜 Rating Rules:
 * **3 Stars** 🌟🌟🌟 : Passed Time is less than or equal to Min Time
 * **2 Stars** 🌟🌟 : Passed Time is less than or equal to Average Time
 * **1 Star** 🌟 : Passed Time is less than or equal to Max Time
@@ -42,7 +42,7 @@ Your completion time now earns you 1 to 3 Stars per level. The better your time,
 
 ---
 
-### Event Hours For Multiplayer
+### 🎉 Event Hours For Multiplayer
 | Start-Time | End-Time | Spawn-Possibility | Status
 | :---: | :---: | :---: | :--- |
 | 09:00 AM | 07:00 PM | **55%** | Medium Chance 
@@ -56,7 +56,7 @@ Your completion time now earns you 1 to 3 Stars per level. The better your time,
 - *Caption : The perfections that get from frames are not validated in the multiplayer, except from the "DarkIvy" frame, which is protected against the dwarf at the mystical map.*
 - *Caption : Rest of the these day times , the shield spawn rates is to be settled as %20.*
 
-## Rating Rules For Multiplayer
+## ⚔️ Rating Rules For Multiplayer
 | Difficulty | Min Time (s) | Average Time (s) | Max Time (s) |
 | :--- | :---: | :---: | :---: |
 | **Easy** | 65s | 75s | 90s |
@@ -69,24 +69,23 @@ Your completion time now earns you 1 to 3 Stars per level. The better your time,
 
 # How To Play
 
-### Android
+### 🤖 Android
 As you can see, the movement buttons are placed on both the left and right sides of the screen. You can control movement and interact with UI elements by pressing these buttons.  
 To change the point of view, simply slide your finger slightly from left to right or right to left. This allows you to rotate the camera and see the cube from different angles.
 
 ---
-
-### Purpose
+### 🎯 Purpose Of Game
 The colorful cube must reach the evacuation point by rolling onto tiles that match its bottom face color. Each new stage introduces longer platforms and more difficult obstacles, increasing the challenge as you progress.
 
-## Gameplay
+## 🕹️ Gameplay
 
 ## 🎮 Rolora Gameplay Teaser
 [![Rolora Gameplay Teaser](https://img.youtube.com/vi/iTamVLXuFzQ/maxresdefault.jpg)](https://youtu.be/iTamVLXuFzQ)
 
-**Objective**  
+**🎯 Objective**  
 Roll the cube to the evacuation point. Each time the cube rolls, the face that becomes the bottom must match the tile color or state beneath it. Rolling onto a nonmatching tile deducts time or points depending on the mode.
 
-**Controls**  
+**🕹️ Controls**  
 - **Movement**: On‑screen left and right buttons.  
 - **Camera**: Swipe left or right to rotate the view around the cube.  
 - **UI**: Inventory, stats, and contextual action buttons are available in the HUD.
@@ -96,16 +95,16 @@ Roll the cube to the evacuation point. Each time the cube rolls, the face that b
 - **Dynamic Tiles**: Tiles toggle between original and dummy states every 3 seconds; difficulty controls their presence and ratio.  
 - **Customization**: Frames and materials provide gameplay modifiers (for example **+20% shield duration**, **+5% roll speed**). Preview materials in the Profile screen.
 
-**License**  
+**🔑 License**  
 This project is **not open source**. All rights reserved. Repository content is provided for viewing only. 
 Unauthorized use, reproduction, or distribution is prohibited. For licensing inquiries or partnership requests, contact the developer.
 
-**Developer**: **Kaan Çınar**  
+**</> Developer**: **Kaan Çınar**  
 **Project Status**: In development & Published On Google Play — Android priority, iOS planned.  
 
 ---
 
-## Key Features
+## ✨Key Features
 
 - **Game Modes**: Single player (3 maps × 4 stages = 12 stages) and local multiplayer (LAN).
 - **Core Mechanic**: Color‑matching cube — the cube’s bottom face must match the tile you roll onto.
@@ -115,10 +114,9 @@ Unauthorized use, reproduction, or distribution is prohibited. For licensing inq
 - **Engine and Rendering**: Unity, C#, URP (SRP), custom HLSL shaders; Vulkan 1.0+ and OpenGL ES 3.2+ backends.
 - **Localization**: Native support for English, French, German, Spanish.
 - **Performance Target**: Optimized for Mali‑G52 devices with a measured baseline of 60 FPS under normal conditions.
-
 ---
 
-## Technical Details and Performance
+## 💻 Technical Details and Performance
 
 **Procedural Generation**  
 - **Algorithm**: DFS for platform layout and event placement.  
@@ -146,19 +144,22 @@ In Rolora, platform instantiation is implemented using the **Abstract Factory (c
 - **Discovery**: LAN broadcast/mDNS for lobby discovery.  
 - **Security Considerations**: Basic validation of client actions; consider server‑authoritative checks or relay services if online play is added.
 
+**🔔Notifications**
+- **Purpose**: As the player leaves the game, the player will be taken a notification which is invited to the game to replay. 
+- **Requirements** : For Android 13+ POST_NOTIFICATIONS request permission. 
 ---
 
-### Assets Screenshots and Captions
+### 📸 Assets Screenshots and Captions
 
 - **Main Menu**  
   ![Main Menu](./docs/assets/MenuRenewed.png)  
   *Caption: Main menu with Play, Settings, Profile, and Store entries. The players will start to game in here after lauched app. But if the tutorial already had passed , they must would have been continued by clicking the button of continuous by progressing in the store. Otherwise the recorded game is reseted.**
 
-- **Settings**  
+- **⚙️Settings**  
   ![Settings](./docs/assets/Settings.png)  
   *Caption: Language,Graphics and audio toggles; post‑processing recommended for high‑end devices.*
 
-## Multiplayer
+## 🌐 Multiplayer
 
 **Local LAN Play**  
 - **Discovery**: Lobby creation and join via LAN using UDP broadcast or mDNS. Devices must be on the same Wi‑Fi network.  
@@ -179,7 +180,7 @@ In Rolora, platform instantiation is implemented using the **Abstract Factory (c
   ![Join Game](./docs/assets/JoinGame.png)  
   *Caption: Discover and join available local lobbies.*
 
-- **Rewards**  
+- **🏆 Rewards**  
   ![Rewards](./docs/assets/RewardsMultiplayer.png)  
   *Caption: In multiplayer mode, rolling your cube onto a non‑matching tile deducts points from your total score. Final scores are calculated from these totals, which directly determine the rewards earned. Higher scores unlock better reward cards, giving players access to valuable items and bonuses.*
 
@@ -192,7 +193,7 @@ In Rolora, platform instantiation is implemented using the **Abstract Factory (c
   ![Stage Selection](./docs/assets/StageSelection.png)  
 - *Caption: Choose a map and stage to continue progress or start a new run.*
 
-- **Profile Colorful**  
+- **👤 Profile Colorful**  
   ![Profile Colorful1](./docs/assets/Colorful-Profile-1.png)  			
   ![Profile Colorful2](./docs/assets/Colorful-Profile-2.png)  			
   ![Colorful_Flag_Selection](./docs/assets/Colorful_Flag_Selection.png)
@@ -204,7 +205,7 @@ In Rolora, platform instantiation is implemented using the **Abstract Factory (c
   ![Mystical_Flag_Selection](./docs/assets/Mystical_Flag_Selection.png)
   *Caption: Material,frame,flag preview with stat modifiers.*
 
-- **Store**  
+- **🛒 Store**  
   ![Store](./docs/assets/Store.png)  
   *Caption: Purchase cosmetics and view owned items before starting a stage.*
 
@@ -226,7 +227,7 @@ In Rolora, platform instantiation is implemented using the **Abstract Factory (c
   ![Mystical](./docs/assets/Mystical-3.png)	 
   *Caption: The Mystical map is the final stage of the game, offering a magical atmosphere that feels lighter in complexity than Ancient but more demanding in endurance. Its enchanting visuals and ambience create surprises throughout, while the last stage introduces a formidable dwarf enemy that players must watch out for.*
 
-- **Localization Support**
+- **🔤 Localization Support**
 *Caption: Rolora offers full native localization in four languages —  
 English ![UK Flag](https://flagcdn.com/w20/gb.png),  
 French ![France Flag](https://flagcdn.com/w20/fr.png),  
@@ -234,11 +235,11 @@ German ![Germany Flag](https://flagcdn.com/w20/de.png),
 Spanish ![Spain Flag](https://flagcdn.com/w20/es.png).  
 Additional languages are planned after launch, ensuring wider accessibility and a seamless experience for players worldwide.*
 
-- **Performans & Optimization**
+- **⚡︎ Performans & Optimization**
 *Caption: The game has been optimized for devices using the Mali‑G52 GPU, achieving a minimum of 60 FPS under normal conditions. Exceptions may occur during extended play sessions or when thermal levels rise.*
 
 ---
-### Developer Diaries - Previously - Rolora v2.0.7 (What's new v2.0.7)
+### 📖 Developer Diaries - Previously - Rolora v2.0.7 (What's new v2.0.7)
 - *Caption: 🎨 Dynamic Visuals: Tile styles now change with your selected frame!*
 - *Caption: 🛠️ Bug Fixes: Minor bugs resolved for better stability.*
 - *Caption: ⚡ Performance: Shader and code optimizations for smoother gameplay.*
@@ -246,21 +247,22 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 - *Caption: 🎮 GPGS & Cloud Save: Sign in to back up progress and unlock achievements!*
 - *Caption: 🛒 In-App Purchases: New in-app purchase options added.*
 
-### Developer Diaries - Currently - Rolora v2.0.8 (What's new v2.0.8)
+### 📖 Developer Diaries - Currently - Rolora v2.0.8 (What's new v2.0.8)
 - *Caption: 🎨 3D Models: Fences (FBX) have been remodeled with new additions.*
 - *Caption: 🛠️ Bug Fixes: Minor bugs resolved for better stability.*
 - *Caption: ⚡ Performance: Shader and code optimizations for smoother gameplay.*
 - *Caption: 🪤 New Content: Added a 'Mystical Trap' to obstacles for the Mystical Map. It dissolving and crystallization for each 3 seconds.*
 
-### Developer Diaries - Next Update - Rolora v2.0.9 (What's new v2.0.9)
+### 📖 Developer Diaries - Next Update - Rolora v2.0.9 (What's new v2.0.9)
 ## ☄️ Crystalline Meteor Gallery- Mystical (Singleplayer)
 - ![CrystallineMeteor](./docs/assets/MysticalMeteor-3.png)
 - *Caption : ☄️ New Content: Introducing the 'Meteor Rain' obstacle to the Mystical Map. On hard difficulty, a meteor will strike near the cube shortly after a red warning circle fades.*
-- *Caption : 🛠️ Bug Fixes: Minor bugs resolved for better stability and gameplay.*
+- *Caption: 🔔 Smart Push Notifications: Automated reminders sent after a period of inactivity to re-engage players.*
 - *Caption: 🌐 Multiplayer: Automatically restart 3 seconds after Game Over.*
+- *Caption : 🛠️ Bug Fixes: Minor bugs resolved for better stability and gameplay.*
 ---
 
-### Developer Diaries - (Coming Soon)
+### 📖 Developer Diaries - (Coming Soon)
 - **NEW MAP - POISONED**
 - ![Poisoned](./docs/assets/Poisoned-1.png)
 - ![Poisoned](./docs/assets/Poisoned-2.png)
