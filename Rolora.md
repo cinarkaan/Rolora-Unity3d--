@@ -253,8 +253,11 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 - *Caption: 🪤 New Content: Added a 'Mystical Trap' to obstacles for the Mystical Map. It dissolving and crystallization for each 3 seconds.*
 
 ### Developer Diaries - Next Update - Rolora v2.0.9 (What's new v2.0.9)
+## ☄️ Crystalline Meteor Gallery- Mystical (Singleplayer)
 - ![CrystallineMeteor](./docs/assets/MysticalMeteor-3.png)
 - *Caption : ☄️ New Content: Introducing the 'Meteor Rain' obstacle to the Mystical Map. On hard difficulty, a meteor will strike near the cube shortly after a red warning circle fades.*
+- *Caption : 🛠️ Bug Fixes: Minor bugs resolved for better stability and gameplay.*
+- *Caption: 🌐 Multiplayer: Automatically restart 3 seconds after Game Over.*
 ---
 
 ### Developer Diaries - (Coming Soon)
@@ -264,6 +267,5 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 - *Caption: The environment that is surrounded with toxic sea and biohazard obstacles and enemies is being designed for players. So new adventures are loading with renewed.*
 - *Caption: This new adventure is to challenge a hazardous environment and has a different atmosphere.*
 - *Caption: The cube is able to roll where is fitted as either even or odd number with the surface of the tile and bottom faces of the cube, which is matched the bottom face of the cube that is rolled as either even or odd with the tile.*
-
 ### Enjoy the Game
 ---
