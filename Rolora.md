@@ -253,13 +253,20 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 - *Caption: ⚡ Performance: Shader and code optimizations for smoother gameplay.*
 - *Caption: 🪤 New Content: Added a 'Mystical Trap' to obstacles for the Mystical Map. It dissolving and crystallization for each 3 seconds.*
 
-### 📖 Developer Diaries - Next Update - Rolora v2.0.9 (What's new v2.0.9)
+### 📖 Developer Diaries - Next Update - Rolora v2.1.0 (What's new v2.1.0)
 ## ☄️ Crystalline Meteor Gallery- Mystical (Singleplayer)
 - ![CrystallineMeteor](./docs/assets/MysticalMeteor-3.png)
 - *Caption : ☄️ New Content: Introducing the 'Meteor Rain' obstacle to the Mystical Map. On hard difficulty, a meteor will strike near the cube shortly after a red warning circle fades.*
 - *Caption: 🔔 Smart Push Notifications: Automated reminders sent after a period of inactivity to re-engage players.*
 - *Caption: 🌐 Multiplayer: Automatically restart 3 seconds after Game Over.*
 - *Caption : 🛠️ Bug Fixes: Minor bugs resolved for better stability and gameplay.*
+
+### 📖 Developer Diaries - Subsequently Update - Rolora v2.1.1 (What's new v2.1.1)
+## 🌐 Play Online Gallery - Multiplayer Menu (Multiplayer)
+- ![PlatOnline-1](./docs/assets/PlayOnline-1.png)
+- ![PlatOnline-2](./docs/assets/PlayOnline-2.png)
+- *Caption : 🌐 Play Online: Players signed in with Google Play Services can play online against opponents. Once you click 'Quick Match', you'll join as host or client and the match will begin immediately.*
+- *Caption: 🌐 Reclamation Local Wifi : Minor bugs resolved for better stability provided.*
 ---
 
 ### 📖 Developer Diaries - (Coming Soon)
