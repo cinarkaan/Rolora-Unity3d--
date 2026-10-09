@@ -266,7 +266,10 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 - ![PlatOnline-1](./docs/assets/PlayOnline-1.png)
 - ![PlatOnline-2](./docs/assets/PlayOnline-2.png)
 - *Caption : 🌐 Play Online: Players signed in with Google Play Services can play online against opponents. Once you click 'Quick Match', you'll join as host or client and the match will begin immediately.*
+- *Caption : 🌐 Play Online : If one of the player exit the game , the player who exited is to be punishment by staying away from 'PlayOnline' a hour.*
+- *Caption : 🌐 Local Wifi Pairs-Matching : System can be discovered multiple rooms that connected at the same wifi network. Code base has been restored.*
 - *Caption: 🌐 Reclamation Local Wifi : Minor bugs resolved for better stability provided.*
+- *Caption: 🛠️ Code Refactor : A codebase revised to improvement.*
 ---
 
 ### 📖 Developer Diaries - (Coming Soon)
