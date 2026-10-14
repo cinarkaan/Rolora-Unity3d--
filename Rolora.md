@@ -265,8 +265,10 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 ## 🌐 Play Online Gallery - Multiplayer Menu (Multiplayer)
 - ![PlayOnline-1](./docs/assets/PlayOnline-1.png)
 - ![PlayOnline-2](./docs/assets/PlayOnline-2.png)
+- ![PlayOnline-3](./docs/assets/PlayOnline-3.png)
 - *Caption : 🌐 Play Online: Players signed in with Google Play Services can play online against opponents. Once you click 'Quick Match', you'll join as host or client and the match will begin immediately.*
 - *Caption : 🌐 Play Online : If one of the player exit the game , the player who exited is to be punishment by staying away from 'PlayOnline' a hour.*
+- *Caption : 🌐 Play Online : The player can be review own 📊GPGS(Google Play Game Services) profile informations(username & best score) by clicking on the 'BIO' button.🥇*
 - *Caption : 🌐 Local Wifi Pairs-Matching : System can be discovered multiple rooms that connected at the same wifi network. Code base has been restored.*
 - *Caption: 🌐 Reclamation Local Wifi : Minor bugs resolved for better stability provided.*
 - *Caption: 🏆 GPGS Leaderboard : The Leaderboard is to be available after opened the 'Play Online' menu. The players is to be seen best players that has been finished lowest time.🏅.*
