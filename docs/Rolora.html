@@ -337,7 +337,6 @@
             </ul>
 
             <h3>🎉 Event Hours - Shield Spawn Rates (Multiplayer)</h3>
-
             <table>
                 <thead>
                     <tr>
@@ -412,6 +411,12 @@
                 </tbody>
             </table>
 
+            <h3>⏳ Round Timer & Leaderboard & Bio</h3>
+            <p>As the timer is up , nobody cannot take win 👑. The best time score are saved for🥇The player who wins and it is shown on the leaderboard , if it is inside of the bests</p>
+            <p>👤 Perhaps , you cannot found out yourself inside of the leaderboard. You can reach out your profile by clicking 'BIO'.</p>
+            
+
+            <h3>📏 Calculation Of The Total Score</h3>
             <p>The amounts of the reward cards that is taken from chest is to calculation with following formula</p>
                 
             <div class="container" style="font-family: Arial, sans-serif; font-size: 18px; display: flex; align-items: center; gap: 6px;">
@@ -508,8 +513,7 @@
                 <li><strong>Procedural Levels:</strong> DFS‑based generation with seed support for reproducible runs.
                 </li>
                 <li><strong>AI:</strong> Enemies use A* pathfinding with dynamic replanning.</li>
-                <li><strong>Networking:</strong> UDP‑based LAN multiplayer with lightweight reliability for critical
-                    messages.</li>
+                <li><strong>Networking:</strong> UDP‑based LAN multiplayer with lightweight reliability for critical messages. For real-time online, requiring the stable internet connection.</li>
                 <li><strong>Engine and Rendering:</strong> Unity, C#, URP (SRP), custom HLSL shaders; Vulkan 1.0+ and
                     OpenGL ES 3.2+ backends.</li>
                 <li><strong>Localization:</strong> Native support for English, French, German, Spanish.</li>
@@ -520,31 +524,27 @@
 
         <section id="technical-details">
             <h2>📈 Technical Details and Performance</h2>
-
             <h3>Procedural Generation</h3>
             <p><strong>Algorithm:</strong> DFS for platform layout and event placement. Seedable generation ensures
                 deterministic runs for QA and leaderboards. Tunable parameters include enemy spawn rate, obstacle
                 frequency, dynamic tile ratio, and loot probability.</p>
-
             <h3>Abstract Factory Pattern — Platform Creation</h3>
             <p>In Rolora, platform instantiation is implemented using the <strong>Abstract Factory pattern</strong>.
                 Each map is backed by its own <code>PlatformFactory</code> abstraction. This provides easy
                 extensibility, map-specific customization, and testability.</p>
-
             <h3>💻 AI, Rendering & Networking</h3>
             <ul>
                 <li><strong>AI & Pathfinding:</strong> A* on a grid with grouped path updates and LOD for distant
                     agents.</li>
                 <li><strong>Rendering:</strong> URP with mobile‑optimized HLSL shaders. Employs GPU instancing and
                     reduced shader variants.</li>
-                <li><strong>Networking:</strong> UDP protocol with application‑level reliability. LAN broadcast/mDNS for
-                    lobby discovery.</li>
+                <li><strong>Networking:</strong> UDP protocol with application‑level reliability. LAN broadcast/mDNS for lobby discovery for lan games. Relay serves for real-time online with stable internet connection.</li>
             </ul>
-            
             <h3>🔔 Notifications</h3>
             <ul>
-                <li><strong>Purpose:</strong>As the player leaves the game, the player will be taken a notification which is invited to the game to replay. </li>
-                <li><strong>Requirements:</strong>For Android 13+ POST_NOTIFICATIONS request permission. </li>
+                <li><strong>🎯 Purpose:</strong>As the player leaves the game, the player will be taken a notification which is invited to the game to replay.
+                if the player has been get ban to be stayed away for a hour , the player will be taken notification the time as approximately.</li>
+                <li><strong>⚠️ Requirements:</strong>For Android 13+ POST_NOTIFICATIONS request permission. </li>
             </ul>
         </section>
 
@@ -561,17 +561,19 @@
             </div>
 
             <div class="screenshot-group">
-                <h3>🌐 Multiplayer LAN Play</h3>
-                <p>Discovery via UDP broadcast. Win condition: First player to reach the evacuation point wins.</p>
+                <h3>🌐 Multiplayer</h3>
+                <p>🥇 <strong>Win condition :</strong> First player to reach the evacuation point wins.</p>
+                <p><strong>Score : </strong>👑 Best time & leaderboard only valid for real time online sessions !!!</p>
+                <p><strong>Warning : </strong>⛔❗ If the player abandon the during match , the player will be banned to staying away for a hour from 'Play Online'.❗⛔</p>
                 <div class="screenshot-gallery">
-                    <img src="assets/Multiplayer.png" alt="Multiplayer Lobby">
+                    <img src="assets/PlayOnline-1.png" alt="Multiplayer Lobby">
                     <img src="assets/CreateGame.png" alt="Create Game">
                     <img src="assets/JoinGame.png" alt="Join Game">
+                    <img src="assets/PlayOnline-3.png" alt="Play Online">
                     <img src="assets/RewardsMultiplayer.png" alt="Rewards">
                     <img src="assets/MultiplayerEvent.png" alt="In Game">
                 </div>
-                <div class="caption">Lobby system, host configurations, in-game stats, and rewards calculation screens.
-                </div>
+                <div class="caption">Play Online, Leaderboard , Lobby system, Host Configurations, In-Game Stats, & Rewards Calculation Screens.</div>
             </div>
 
             <div class="screenshot-group">

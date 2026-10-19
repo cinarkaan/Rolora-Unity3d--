@@ -63,7 +63,12 @@ Your completion time now earns you 1 to 3 Stars per level. The better your time,
 | **Normal** | 65s | 75s | 90s |
 | **Hard** | 75s | 85s | 95s |
 
-<p>The amounts of the reward cards that is taken from chest is to calculation with following formula <br><br></p>
+## ⏳ Round Timer & Leaderboard & Bio
+- *Caption : As the timer is up , nobody cannot take win 👑. The best time score are saved for🥇The player who wins and it is shown on the leaderboard , if it is inside of the bests .*
+- *Caption : 👤 Perhaps , you cannot found out yourself inside of the leaderboard. You can reach out your profile by clicking 'BIO'.*
+
+**📏 Calculation Of The Total Score**
+- *Caption :The amounts of the reward cards that is taken from chest is to calculation with following formula.*
 
 <img src="https://latex.codecogs.com/svg.image?\color{white}\text{RewardAmount}=\text{Round}\left(\text{Amount}\times\frac{\text{PointScore}+\text{Point}}{200}\right)" alt="Reward Formula" />
 
@@ -101,16 +106,14 @@ Unauthorized use, reproduction, or distribution is prohibited. For licensing inq
 
 **</> Developer**: **Kaan Çınar**  
 **Project Status**: In development & Published On Google Play — Android priority, iOS planned.  
-
 ---
 
 ## ✨Key Features
-
 - **Game Modes**: Single player (3 maps × 4 stages = 12 stages) and local multiplayer (LAN).
 - **Core Mechanic**: Color‑matching cube — the cube’s bottom face must match the tile you roll onto.
 - **Procedural Levels**: DFS‑based generation with seed support for reproducible runs.
 - **AI**: Enemies use A* pathfinding with dynamic replanning.
-- **Networking**: UDP‑based LAN multiplayer with lightweight reliability for critical messages.
+- **Networking**: UDP‑based LAN multiplayer with lightweight reliability for critical messages. For real-time online, requiring the stable internet connection.
 - **Engine and Rendering**: Unity, C#, URP (SRP), custom HLSL shaders; Vulkan 1.0+ and OpenGL ES 3.2+ backends.
 - **Localization**: Native support for English, French, German, Spanish.
 - **Performance Target**: Optimized for Mali‑G52 devices with a measured baseline of 60 FPS under normal conditions.
@@ -145,7 +148,8 @@ In Rolora, platform instantiation is implemented using the **Abstract Factory (c
 - **Security Considerations**: Basic validation of client actions; consider server‑authoritative checks or relay services if online play is added.
 
 **🔔Notifications**
-- **Purpose**: As the player leaves the game, the player will be taken a notification which is invited to the game to replay. 
+- **Purpose**: As the player leaves the game, the player will be taken a notification which is invited to the game to replay.
+if the player has been get ban to be stayed away for a hour , the player will be taken notification the time as approximately.
 - **Requirements** : For Android 13+ POST_NOTIFICATIONS request permission. 
 ---
 
@@ -161,15 +165,17 @@ In Rolora, platform instantiation is implemented using the **Abstract Factory (c
 
 ## 🌐 Multiplayer
 
-**Local LAN Play**  
+**Local LAN Play & Online**  
 - **Discovery**: Lobby creation and join via LAN using UDP broadcast or mDNS. Devices must be on the same Wi‑Fi network.  
 - **Match Setup**: Host configures stage, difficulty, and grid size (default 6×6). Host starts at (0,0); client starts at (5,5) or (6,6) depending on difficulty.  
+- **PlayOnline** : The server matchs the players as randomly between 4 and 12 seconds. Nobody cannot select either difficulty & map.
+- **PlayOnline** : ⛔❗ If the player abandon the during match , the player will be banned to staying away for a hour from 'Play Online'.❗⛔
 - **Win Condition**: First player to reach the evacuation point wins and receives rewards (coins, shields, clues, diamonds).  
-- **Scoring**: Rolling on nonmatching tiles deducts time/points; total points determine reward tiers.  
+- **Scoring**: Rolling on nonmatching tiles deducts time/points; total points determine reward tiers. 👑 Best time & leaderboard only valid for real time online sessions !!!
 - **Networking Notes**: UDP chosen for low latency; critical messages use sequence numbers and lightweight ACKs to mitigate packet loss. Lobby discovery is LAN only; if connection is lost both players return to the main menu.
 
 - **Multiplayer Lobby**  
-  ![Multiplayer Lobby](./docs/assets/Multiplayer.png)  
+  ![Multiplayer Lobby](./docs/assets/PlayOnline-1.png)  
   *Caption: Create or join a LAN lobby; configure stage and difficulty.*
 
 - **Create Game**  
@@ -179,6 +185,10 @@ In Rolora, platform instantiation is implemented using the **Abstract Factory (c
 - **Join Game**  
   ![Join Game](./docs/assets/JoinGame.png)  
   *Caption: Discover and join available local lobbies.*
+
+- **Play Online**
+  ![PlayOnline](./docs/assets/PlayOnline-3.png)
+  *Caption: Play game as online and review leaderboard, bio.*
 
 - **🏆 Rewards**  
   ![Rewards](./docs/assets/RewardsMultiplayer.png)  
