@@ -175,7 +175,7 @@ if the player has been get ban to be stayed away for a hour , the player will be
 - **Networking Notes**: UDP chosen for low latency; critical messages use sequence numbers and lightweight ACKs to mitigate packet loss. Lobby discovery is LAN only; if connection is lost both players return to the main menu.
 
 - **Multiplayer Lobby**  
-  ![Multiplayer Lobby](./docs/assets/PlayOnline-1.png)  
+  ![Multiplayer Lobby](./docs/assets/Multiplayer.png)  
   *Caption: Create or join a LAN lobby; configure stage and difficulty.*
 
 - **Create Game**  
@@ -187,7 +187,7 @@ if the player has been get ban to be stayed away for a hour , the player will be
   *Caption: Discover and join available local lobbies.*
 
 - **Play Online**
-  ![PlayOnline](./docs/assets/PlayOnline-3.png)
+  ![PlayOnline](./docs/assets/PlayOnline-2.png)
   *Caption: Play game as online and review leaderboard, bio.*
 
 - **🏆 Rewards**  
@@ -273,9 +273,9 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 
 ### 📖 Developer Diaries - Next Update - Rolora v2.1.1 (What's new v2.1.1)
 ## 🌐 Play Online Gallery - Multiplayer Menu (Multiplayer)
-- ![PlayOnline-1](./docs/assets/PlayOnline-1.png)
-- ![PlayOnline-2](./docs/assets/PlayOnline-2.png)
-- ![PlayOnline-3](./docs/assets/PlayOnline-3.png)
+- ![PlayOnline-1](./docs/assets/Multiplayer.png)
+- ![PlayOnline-2](./docs/assets/PlayOnline-1.png)
+- ![PlayOnline-3](./docs/assets/PlayOnline-2.png)
 - *Caption : 🌐 Play Online: Players signed in with Google Play Services can play online against opponents. Once you click 'Quick Match', you'll join as host or client and the match will begin immediately.*
 - *Caption : 🌐 Play Online : If one of the player exit the game , the player who exited is to be punishment by staying away from 'PlayOnline' a hour.*
 - *Caption : 🌐 Play Online : The player can be review own 📊GPGS(Google Play Game Services) profile informations(username & best score) by clicking on the 'BIO' button.🥇*
