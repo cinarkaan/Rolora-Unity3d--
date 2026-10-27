@@ -1,4 +1,4 @@
-﻿# 🎮 ROLORA - Version 2.1.0 (Is Live)
+﻿# 🎮 ROLORA - Version 2.1.1 (Is Live)
 
 # 🔎 Overview
 
@@ -257,13 +257,13 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 - *Caption: 🎮 GPGS & Cloud Save: Sign in to back up progress and unlock achievements!*
 - *Caption: 🛒 In-App Purchases: New in-app purchase options added.*
 
-### 📖 Developer Diaries - Previously - Rolora v2.0.8 (What's new v2.0.8)
+### 📖 Developer Diaries - Earlier - Rolora v2.0.8 (What's new v2.0.8)
 - *Caption: 🎨 3D Models: Fences (FBX) have been remodeled with new additions.*
 - *Caption: 🛠️ Bug Fixes: Minor bugs resolved for better stability.*
 - *Caption: ⚡ Performance: Shader and code optimizations for smoother gameplay.*
 - *Caption: 🪤 New Content: Added a 'Mystical Trap' to obstacles for the Mystical Map. It dissolving and crystallization for each 3 seconds.*
 
-### 📖 Developer Diaries - Currently - Rolora v2.1.0 (What's new v2.1.0)
+### 📖 Developer Diaries - Previously - Rolora v2.1.0 (What's new v2.1.0)
 ## ☄️ Crystalline Meteor Gallery- Mystical (Singleplayer)
 - ![CrystallineMeteor](./docs/assets/MysticalMeteor-3.png)
 - *Caption : ☄️ New Content: Introducing the 'Meteor Rain' obstacle to the Mystical Map. On hard difficulty, a meteor will strike near the cube shortly after a red warning circle fades.*
@@ -271,7 +271,7 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 - *Caption: 🌐 Multiplayer: Automatically restart 3 seconds after Game Over.*
 - *Caption : 🛠️ Bug Fixes: Minor bugs resolved for better stability and gameplay.*
 
-### 📖 Developer Diaries - Next Update - Rolora v2.1.1 (What's new v2.1.1)
+### 📖 Developer Diaries - Currently - Rolora v2.1.1 (What's new v2.1.1)
 ## 🌐 Play Online Gallery - Multiplayer Menu (Multiplayer)
 - ![PlayOnline-1](./docs/assets/Multiplayer.png)
 - ![PlayOnline-2](./docs/assets/PlayOnline-1.png)
