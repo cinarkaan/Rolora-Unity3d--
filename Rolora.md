@@ -235,6 +235,7 @@ if the player has been get ban to be stayed away for a hour , the player will be
   ![Mystical](./docs/assets/Mystical-1.png)
   ![Mystical](./docs/assets/Mystical-2.png)
   ![Mystical](./docs/assets/Mystical-3.png)	 
+  ![Mystical](./docs/assets/MysticalMeteor-3.png)
   *Caption: The Mystical map is the final stage of the game, offering a magical atmosphere that feels lighter in complexity than Ancient but more demanding in endurance. Its enchanting visuals and ambience create surprises throughout, while the last stage introduces a formidable dwarf enemy that players must watch out for.*
 
 - **🔤 Localization Support**
@@ -264,18 +265,12 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 - *Caption: 🪤 New Content: Added a 'Mystical Trap' to obstacles for the Mystical Map. It dissolving and crystallization for each 3 seconds.*
 
 ### 📖 Developer Diaries - Previously - Rolora v2.1.0 (What's new v2.1.0)
-## ☄️ Crystalline Meteor Gallery- Mystical (Singleplayer)
-- ![CrystallineMeteor](./docs/assets/MysticalMeteor-3.png)
 - *Caption : ☄️ New Content: Introducing the 'Meteor Rain' obstacle to the Mystical Map. On hard difficulty, a meteor will strike near the cube shortly after a red warning circle fades.*
 - *Caption: 🔔 Smart Push Notifications: Automated reminders sent after a period of inactivity to re-engage players.*
 - *Caption: 🌐 Multiplayer: Automatically restart 3 seconds after Game Over.*
 - *Caption : 🛠️ Bug Fixes: Minor bugs resolved for better stability and gameplay.*
 
 ### 📖 Developer Diaries - Currently - Rolora v2.1.1 (What's new v2.1.1)
-## 🌐 Play Online Gallery - Multiplayer Menu (Multiplayer)
-- ![PlayOnline-1](./docs/assets/Multiplayer.png)
-- ![PlayOnline-2](./docs/assets/PlayOnline-1.png)
-- ![PlayOnline-3](./docs/assets/PlayOnline-2.png)
 - *Caption : 🌐 Play Online: Players signed in with Google Play Services can play online against opponents. Once you click 'Quick Match', you'll join as host or client and the match will begin immediately.*
 - *Caption : 🌐 Play Online : If one of the player exit the game , the player who exited is to be punishment by staying away from 'PlayOnline' a hour.*
 - *Caption : 🌐 Play Online : The player can be review own 📊GPGS(Google Play Game Services) profile informations(username & best score) by clicking on the 'BIO' button.🥇*
@@ -291,7 +286,7 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 ---
 
 ### 📖 Developer Diaries - (Coming Soon)
-- **NEW MAP - POISONED**
+- **🧪☠️ NEW MAP - POISONED GALLERY 🧪☠️**
 - ![Poisoned](./docs/assets/Poisoned-1.png)
 - ![Poisoned](./docs/assets/Poisoned-2.png)
 - *Caption: The environment that is surrounded with toxic sea and biohazard obstacles and enemies is being designed for players. So new adventures are loading with renewed.*
