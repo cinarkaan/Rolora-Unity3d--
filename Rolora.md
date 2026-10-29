@@ -220,9 +220,9 @@ if the player has been get ban to be stayed away for a hour , the player will be
   *Caption: Purchase cosmetics and view owned items before starting a stage.*
 
 - **Map Colorful**        
-  ![Colorful-1](./docs/assets/Colorful-1.png)  
-  ![Colorful-2](./docs/assets/Colorful-2.png) 
-  ![Colorful-2](./docs/assets/Colorful-3.png)  
+- ![Colorful-1-v2.1.2](./docs/assets/Colorful-1-v212.png)
+- ![Colorful-2-v2.1.2](./docs/assets/Colorful-2-v212.png)
+- ![Colorful-3-v2.1.2](./docs/assets/Colorful-3-v212.png)
   *Caption: The Colorful map introduces four stages, each beginning with a guide that explains the objectives. Players can skip the guide using the forward button if they prefer. Across the stages, three dynamic weather conditions appear — sunny with floating dust particles, rainy, and snowy — adding variety and atmosphere to the gameplay.*
 
 - **Map Ancient**        
@@ -283,6 +283,11 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 - *Caption: 🌐 Reclamation Local Wifi : Minor bugs resolved for better stability provided.*
 - *Caption: 🏆 GPGS Leaderboard : The Leaderboard is to be available after opened the 'Play Online' menu. The players is to be seen best players that has been finished lowest time.🏅.*
 - *Caption: 🛠️ Code Refactor : A codebase revised to improvement.*
+
+### 📖 Developer Diaries - Next Update - Rolora v2.1.2 (What's new v2.1.2)
+- *Caption : 🌱 Environment-Arrangement: Live underwater-plants has been added on the colorful map.*
+- *Caption : ✨ New VFX: At the map that is called as 'Ancient' , vfx has been added after trigger to taking 'Key' event.*
+- *Caption : 🛠️ Code Refactor & Bug Fixes : A codebase revised to improvement & Minor bugs resolved for better stability.*
 ---
 
 ### 📖 Developer Diaries - (Coming Soon)
