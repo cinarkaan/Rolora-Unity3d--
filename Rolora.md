@@ -85,7 +85,7 @@ The colorful cube must reach the evacuation point by rolling onto tiles that mat
 ## 🕹️ Gameplay
 
 ## 🎮 Rolora Gameplay Teaser
-[![Rolora Gameplay Teaser](https://img.youtube.com/vi/iTamVLXuFzQ/maxresdefault.jpg)](https://youtu.be/iTamVLXuFzQ)
+[![Rolora Gameplay Teaser](https://img.youtube.com/vi/qpzGk5XL7d8/maxresdefault.jpg)](https://youtu.be/qpzGk5XL7d8)
 
 **🎯 Objective**  
 Roll the cube to the evacuation point. Each time the cube rolls, the face that becomes the bottom must match the tile color or state beneath it. Rolling onto a nonmatching tile deducts time or points depending on the mode.
@@ -126,31 +126,32 @@ Unauthorized use, reproduction, or distribution is prohibited. For licensing inq
 - **Reproducibility**: Seedable generation for deterministic runs used in QA and leaderboards.  
 - **Tunable Parameters**: Enemy spawn rate, obstacle frequency, dynamic tile ratio, loot probability.
 
-## Abstract Factory Pattern — Platform Creation
+## 💻 Abstract Factory Pattern — Platform Creation
 In Rolora, platform instantiation is implemented using the **Abstract Factory (creational) pattern**. Each map (Colorful, Ancient, Mystical) is backed by its own `PlatformFactory` abstraction and corresponding concrete factory classes. This factory hierarchy provides several key benefits:
 
 - **Easy Extensibility**: New maps or platform types can be introduced simply by adding a new factory, without altering existing code.  
 - **Map‑Specific Customization**: Each factory encapsulates the unique tile sets, dynamic behaviors, and event rules of its respective map, ensuring clean separation of creation logic.  
 - **Testability**: Factories can be replaced with mock implementations, while seed‑based generation enables reproducible runs for QA, multiplayer synchronization, and leaderboard validation.
 
-**AI and Pathfinding**  
+**💻 AI and Pathfinding**  
 - **Pathfinding**: A* on a grid with controlled replanning frequency.  
 - **Optimizations**: Grouped path updates, LOD for distant agents, and simple state machines for common behaviors.
 
-**Rendering and Shaders**  
+**💻 Rendering and Shaders**  
 - **Pipeline**: URP with mobile‑optimized HLSL shaders.  
 - **Performance Strategies**: Batching, GPU instancing, reduced shader variants, optional post‑processing toggles for lower‑end devices.  
 - **Profiling Tools**: Unity Profiler and device GPU profilers; record FPS, memory, draw calls, and thermal behavior per scene.
 
-**Networking and Security**  
+**🌐 Networking and Security**  
 - **Protocol**: UDP with application‑level reliability for important events.  
 - **Discovery**: LAN broadcast/mDNS for lobby discovery.  
 - **Security Considerations**: Basic validation of client actions; consider server‑authoritative checks or relay services if online play is added.
+**⚠️ Requirements** : 🛜LAN Multiplayer Mode : For 🤖Android 17+ ACCESS LOCAL NETWORK permission request is necessary.
 
-**🔔Notifications**
-- **Purpose**: As the player leaves the game, the player will be taken a notification which is invited to the game to replay.
+**🔔 Notifications**
+- **🎯 Purpose** : As the player leaves the game, the player will be taken a notification which is invited to the game to replay.
 if the player has been get ban to be stayed away for a hour , the player will be taken notification the time as approximately.
-- **Requirements** : For Android 13+ POST_NOTIFICATIONS request permission. 
+- **⚠️ Requirements** : For 🤖Android 13+ POST_NOTIFICATIONS request permission. 
 ---
 
 ### 📸 Assets Screenshots and Captions
@@ -283,6 +284,7 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 - *Caption : 🌱 Environment-Arrangement: Live underwater-plants has been added on the colorful map.*
 - *Caption : ✨ New VFX: At the map that is called as 'Ancient' , vfx has been added after trigger to taking 'Key' event.*
 - *Caption : 🛠️ Code Refactor & Bug Fixes : A codebase revised to improvement & Minor bugs resolved for better stability.*
+- *Caption : 🤖 Supported For Android 17(API-37).*
 ---
 
 ### 📖 Developer Diaries - (Coming Soon)
