@@ -285,6 +285,11 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 - *Caption : ✨ New VFX: At the map that is called as 'Ancient' , vfx has been added after trigger to taking 'Key' event.*
 - *Caption : 🛠️ Code Refactor & Bug Fixes : A codebase revised to improvement & Minor bugs resolved for better stability.*
 - *Caption : 🤖 Supported For Android 17(API-37).*
+
+### 📖 Developer Diaries - Next Update - Rolora v2.1.3 (What's new v2.1.3)
+- *Caption : 🌐 Play Online: Players need a ticket 🎫 to join a match. Once a match begins, one ticket will be deducted from both players.*
+- *Caption : 🎫 Tickets can be purchased in the store or won (1 per match) by playing online.*
+- *Caption : 📆 Players receive 7 free tickets every week and will get a notification once their tickets are refilled.*
 ---
 
 ### 📖 Developer Diaries - (Coming Soon)
