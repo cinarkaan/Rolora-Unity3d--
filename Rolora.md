@@ -1,4 +1,4 @@
-﻿# 🎮 ROLORA - Version 2.1.2 (Is Live)
+﻿# 🎮 ROLORA - Version 2.1.3 (Is Live)
 
 # 🔎 Overview
 
@@ -171,6 +171,7 @@ if the player has been get ban to be stayed away for a hour , the player will be
 - **Match Setup**: Host configures stage, difficulty, and grid size (default 6×6). Host starts at (0,0); client starts at (5,5) or (6,6) depending on difficulty.  
 - **PlayOnline** : The server matchs the players as randomly between 4 and 12 seconds. Nobody cannot select either difficulty & map.
 - **PlayOnline** : ⛔❗ If the player abandon the during match , the player will be banned to staying away for a hour from 'Play Online'.❗⛔
+- **PlayOnline** : 🎫 Tickets are used to join online matches. 📆 Players receive 7 tickets every week.
 - **Win Condition**: First player to reach the evacuation point wins and receives rewards (coins, shields, clues, diamonds).  
 - **Scoring**: Rolling on nonmatching tiles deducts time/points; total points determine reward tiers. 👑 Best time & leaderboard only valid for real time online sessions !!!
 - **Networking Notes**: UDP chosen for low latency; critical messages use sequence numbers and lightweight ACKs to mitigate packet loss. Lobby discovery is LAN only; if connection is lost both players return to the main menu.
@@ -188,7 +189,7 @@ if the player has been get ban to be stayed away for a hour , the player will be
   *Caption: Discover and join available local lobbies.*
 
 - **Play Online**
-  ![PlayOnline](./docs/assets/PlayOnline-2.png)
+  ![PlayOnline](./docs/assets/PlayOnlineBio.png)
   *Caption: Play game as online and review leaderboard, bio.*
 
 - **🏆 Rewards**  
@@ -271,7 +272,7 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 - *Caption: 🌐 Multiplayer: Automatically restart 3 seconds after Game Over.*
 - *Caption : 🛠️ Bug Fixes: Minor bugs resolved for better stability and gameplay.*
 
-### 📖 Developer Diaries - Previously - Rolora v2.1.1 (What's new v2.1.1)
+### 📖 Developer Diaries - Earlier - Rolora v2.1.1 (What's new v2.1.1)
 - *Caption : 🌐 Play Online: Players signed in with Google Play Services can play online against opponents. Once you click 'Quick Match', you'll join as host or client and the match will begin immediately.*
 - *Caption : 🌐 Play Online : If one of the player exit the game , the player who exited is to be punishment by staying away from 'PlayOnline' a hour.*
 - *Caption : 🌐 Play Online : The player can be review own 📊GPGS(Google Play Game Services) profile informations(username & best score) by clicking on the 'BIO' button.🥇*
@@ -280,13 +281,13 @@ Additional languages are planned after launch, ensuring wider accessibility and 
 - *Caption: 🏆 GPGS Leaderboard : The Leaderboard is to be available after opened the 'Play Online' menu. The players is to be seen best players that has been finished lowest time.🏅.*
 - *Caption: 🛠️ Code Refactor : A codebase revised to improvement.*
 
-### 📖 Developer Diaries - Currently - Rolora v2.1.2 (What's new v2.1.2)
+### 📖 Developer Diaries - Previously - Rolora v2.1.2 (What's new v2.1.2)
 - *Caption : 🌱 Environment-Arrangement: Live underwater-plants has been added on the colorful map.*
 - *Caption : ✨ New VFX: At the map that is called as 'Ancient' , vfx has been added after trigger to taking 'Key' event.*
 - *Caption : 🛠️ Code Refactor & Bug Fixes : A codebase revised to improvement & Minor bugs resolved for better stability.*
 - *Caption : 🤖 Supported For Android 17(API-37).*
 
-### 📖 Developer Diaries - Next Update - Rolora v2.1.3 (What's new v2.1.3)
+### 📖 Developer Diaries - Currently - Rolora v2.1.3 (What's new v2.1.3)
 - *Caption : 🌐 Play Online: Players need a ticket 🎫 to join a match. Once a match begins, one ticket will be deducted from both players.*
 - *Caption : 🎫 Tickets can be purchased in the store or won (1 per match) by playing online.*
 - *Caption : 📆 Players receive 7 free tickets every week and will get a notification once their tickets are refilled.*
